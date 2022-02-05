@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+  <title>Pulmonologist</title>
+ <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}"> 
+</head>
+    <style>
+    body::-webkit-scrollbar
+    {
+        display:none;
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;
+        
+    }
+        body
+        {
+             background-image: url('https://thumbs.gfycat.com/AmazingSpecificAndalusianhorse-size_restricted.gif');      
+            background-blend-mode: darken(70%);
+        }
+.navbar,.navbar1,.desc{
+  overflow: hidden;
+  font-family: Times New Roman;
+}
+button
+    {
+        color: white;
+        background-color: #00BFFF;
+        border-color: #00BFFF;
+        padding:0.9%;
+    }
+.cropped1
+    {
+        padding: 0%;
+        width: 5%;
+        height: 5%;
+        vertical-align: middle;
+        font-size: 150%;
+    }
+p{
+        color: white;
+        font-size: 100%;
+        padding: 2%
+    }
+h2,p
+    {
+        color: white;
+        padding-left: 2%;
+    }
+li
+    {
+        list-style-type: none;
+        padding: 5%;
+
+    }
+#first
+    {
+        text-decoration: none;
+        color: white;
+        background-color: #00BFFF;
+        padding:0.5%;
+        border-color: #00BFFF;
+    }
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+   padding: 14px 16px;
+  text-decoration: none;
+}
+img
+    {
+        padding-left: 4%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+.cropped1
+    {
+           padding-left: 2%;
+        vertical-align: middle;
+        font-size: 150%;
+    }
+.navbar{
+    background-image: url('https://image.freepik.com/free-photo/shades-blue-white-background_23-2147746645.jpg');
+    background-color: rgba(0,0,0, 0.3);
+    background-blend-mode: darken;
+
+        color: white;
+        font-size: 100%;
+    font-style: italic;
+    font-family:cursive;
+        padding-left: 2%;
+ 
+    }
+div.scrollmenu {
+    padding-top: 1%;
+
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: rgb(30,144,255);
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+    font-family: cursive,monospace;
+}
+
+div.scrollmenu a:hover {
+  background-color: rgb(135,206,235);
+}
+.scrollmenu {
+  background-color: #eee;
+  width: 100%;
+  height: 100%;
+  
+  overflow-y: scroll; /* Add the ability to scroll */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrollmenu::-webkit-scrollbar {
+    width: 2%;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrollmenu {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: 2%;  /* Firefox */
+}
+    
+.mySlides
+        {
+            display: none;
+        }
+.gify{
+  border-radius: 100px;
+}
+
+    </style>
+<script>
+var slideIndex = 0;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+    
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+<script>
+     function showhide1()
+     {
+           var li = document.getElementById("1");
+    if (li.style.display !== "block") {
+        li.style.display = "block";
+    }
+    else {
+        li.style.display = "none";
+    }
+     }
+    function showhide2()
+     {
+           var li = document.getElementById("2");
+    if (li.style.display !== "block") {
+        li.style.display = "block";
+    }
+    else {
+        li.style.display = "none";
+    }
+     }
+     function showhide3()
+     {
+           var li = document.getElementById("3");
+    if (li.style.display !== "block") {
+        li.style.display = "block";
+    }
+    else {
+        li.style.display = "none";
+    }
+     }
+     function showhide4()
+     {
+           var li = document.getElementById("4");
+    if (li.style.display !== "block") {
+        li.style.display = "block";
+    }
+    else {
+        li.style.display = "none";
+    }
+     }
+    function showhide5()
+     {
+           var li = document.getElementById("5");
+    if (li.style.display !== "block") {
+        li.style.display = "block";
+    }
+    else {
+        li.style.display = "none";
+    }
+     }
+    function showhide6()
+     {
+           var li = document.getElementById("6");
+    if (li.style.display !== "block") {
+        li.style.display = "block";
+    }
+    else {
+        li.style.display = "none";
+    }
+     }
+    function showhide7()
+     {
+           var li = document.getElementById("7");
+    if (li.style.display !== "block") {
+        li.style.display = "block";
+    }
+    else {
+        li.style.display = "none";
+    }
+     }
+    function showhide8()
+     {
+           var li = document.getElementById("8");
+    if (li.style.display !== "block") {
+        li.style.display = "block";
+    }
+    else {
+        li.style.display = "none";
+    }
+     }
+    function showhide9()
+     {
+           var li = document.getElementById("9");
+    if (li.style.display !== "block") {
+        li.style.display = "block";
+    }
+    else {
+        li.style.display = "none";
+    }
+     }
+    function showhide10()
+     {
+           var li = document.getElementById("10");
+    if (li.style.display !== "block") {
+        li.style.display = "block";
+    }
+    else {
+        li.style.display = "none";
+    }
+     }
+</script>
+
+<body>
+<div class='navbar' id='title'>
+    <div></div>
+    <div></div>
+    <p style="font-size: 140%"><img class="cropped1" src="https://drive.google.com/thumbnail?id=1JQ6epr36ugrVF7cuTlYMw9kL7J-pZrfd" width=5%; height="5%;">&nbsp HEALTH COMPANION</p></div>
+    <div class="scrollmenu">
+             <a href="index.html" >HOME</a>
+           
+            <a href='Consulting%20doctors.html' >CONSULTING</a>
+             <a href='https://aiforecasting.herokuapp.com/' >CHECK MY HEALTH</a>
+             <a href="AI%20predictions.html" >AI PREDICTIONS</a>
+             <a href="Hospital.html">HOSPITAL CONSULTING</a>      
+             
+                 <a href="HealthyTips.html">HEALTH TIPS</a>
+                 <a href="food1-1.html">FOOD INFO</a>
+                  <a href="Disease%20information.html">DISEASE INFO</a>
+             </div>
+  <br>
+  <br>
+  <br>
+ <div style="color: white; ">
+<div class="navbar1" style="align-self:  center; color: white; font-display:auto; font-size: 100%; background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20190221/ourmid/pngtree-blue-technology-geometric-polygon-image_28240.jpg');background-repeat: no-repeat;background-size: cover;background-color: rgba(0,0,0, 0.4);">
+    <div class="split left" style="float:left;width: 45%;">
+   <img class="gify" src="https://media4.giphy.com/media/U1mESeTwjutYCcnNsi/giphy.gif?cid=6c09b9522p5g61kml482vikx4vzcfcgw916jscorlcwl27ix&rid=giphy.gif&ct=s"width="400" height="350">
+
+
+</div>
+<div class="split right" style="float:right;width: 55%;">
+     <br>
+    <p style="padding-left: 1%;font-size: 200%; ">PULMONOLOGIST</p>
+        <p style="padding-left: 1%; font-size: 150%;">Pulmonology is part of medical sciences that are concerned with the diseases involving respiratory tract. With the increase of air pollution in our country the diseases related to lungs are also increasing.  Precaution is better than cure, so surely one should actively try to avoid being exposed to pollution. Sometimes these problems are genetic too. Pulmonologists in Chennai are always there to rescue. Here is a list of best pulmonologists in Chennai. We suggest you keep this list handy in case of emergency.</p><br><br><br><br>
+</div>
+</div>    
+<br>
+    <div id='list' style="background-image: url(https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?size=626&ext=jpg);font-size: 150%; padding-left:5%;background-repeat: no-repeat;background-size: cover;background-color: rgba(0,0,0, 0.4); text-align:  center;"><br><br>
+     
+        <h2>Dr. Ilangho R P</h2><img src="https://prodaphstorage.blob.core.windows.net/doctors/7f2ff6e6-937e-43cf-bbbe-1436f22e8fc0.%20Ilangho%20R%20P_a"width=150 height="150"><p> MBBS, MD, FRCP (Glasgow) and DTRD.<br>30 years of experience</p>
+        <li id='1' style="display: none;">
+        <p>Dr. Ilangho R P is a reputed pulmonologist from Chennai. He is a senior consultant- respiratory medicine at Apollo Hospitals, Greams Lane. He has a rich 30 years of experience in this field. He holds many degrees such as MBBS, MD, FRCP (Glasgow) and DTRD. He is a member of many prestigious institutes like The Global Advisory Board of The Disease Management, IMA, Institutional Ethical Committee, Indian Chest Society and many others. He is currently practicing at Apollo Hospitals,</p>
+        <p>Address:<br>No 21, Greams Lane, Off Greams Road, Chennai, Tamil Nadu, 600006</p>
+        <p>FEE:Rs.550.</p>
+        <p>Timings: Monday to Saturday 12:00 pm – 6:00 pm</p><p>Contact: 044 6060 1066</p></li>
+        &nbsp&nbsp&nbsp&nbsp<button id="button" onclick="showhide1()"style="opacity: 80%;">KNOW MORE</button>&nbsp&nbsp&nbsp<a id='first'href="https://www.apollo247.com/doctors/dr-ilangho-r-p-120563d5-643e-4cd2-a501-8eb505d1e64d?gclid=Cj0KCQjwsLWDBhCmARIsAPSL3_1gbz_O_IM2QbzRafGfQJEsT-dSDSnB8a09Jv_Kg1xXVo-9n8Yal88aAlKpEALw_wcB"style="font-size: 50%;padding: 1.15%;opacity: 80%;">BOOK APPOINTMENT</a>
+        
+        <br>
+        <h2>Dr. Raj B Singh</h2><img src="https://imagesx.practo.com/providers/b0d2c754-a3a6-4759-be66-4053483f6e5c.jpg?i_type=t_100x100" width="150" height="150"><p>MBBS, MD in general medicine<br>39 Years Experience Overall </p>
+        <li id='2' style="display: none;">
+        <p>Dr. Singh is a consultant-Respiratory Medicine in Apollo Hospital, Greams Lane. He holds a degree of MBBS, MD in general medicine and FRCP from London. He has a good 34 years of experience in this field. He maintained his reputation thoroughly and served selflessly. He is a member of IMA, Indian Chest Society, Indian Association of Bronchology, British Thoracic Society and many others. He is currently practicing at Apollo Hospitals. </p>
+        <p>Address:<br>No 21, Greams Lane, Off Greams Road, Chennai, Tamil Nadu, 600006</p>
+        <p>FEE:Rs.500</p>
+        <p>Timings: Monday to Saturday 8:00 am – 4:45 pm.</p><p>Contact: 044 6060 1066</p></li>
+        &nbsp&nbsp&nbsp&nbsp<button id="button" onclick="showhide2()"style="opacity: 80%;">KNOW MORE</button>&nbsp&nbsp&nbsp<a id='first'href="https://www.practo.com/chennai/doctor/raj-b-singh-pulmonologist"style="font-size: 50%;padding: 1.15%;opacity: 80%;">BOOK APPOINTMENT</a>
+         
+        <br>
+        <h2>Dr. Prasanna Kumar Thomas</h2><img src="https://imagesx.practo.com/providers/c2812487-1486-45c5-8943-09a57655237b.jpg?i_type=t_100x100" width="150" height="150"><p>MBBS, Diploma in Tuberculosis and Chest Diseases (DTCD), MD - Tuberculosis & Respiratory Diseases/Medicine<br>42 Years Experience Overall  (39 years as specialist)</p>
+        <li id='3' style="display: none;">
+        <p>Dr. Thomas is a consultant- pulmonology in Fortis Malar Hospital. He holds a degree of MBBS, DTCD and MD in tuberculosis and chest disease from Madras Medical College, Chennai and FCCP from the American college of chest Physician, USA. He is one of the best pulmonologists in Chennai. He has a rich experience of 31 years in this field. He is a member of Indian Medical Association and European Respiratory Society. He has published several papers in India as well as in abroad. He is currently practicing at Fortis Malar Hospital, Chennai.</p>
+        <p>Address:<br>No 52, 1st main road, Gandhi Nagar, Adhyar, Chennai, Tamil Nadu, 600020</p>
+        <p>FEE:Rs.500</p>
+        <p>Timings: Monday, Wednesday and Friday 3:00 pm – 5:00 pm.</p></li>
+        &nbsp&nbsp&nbsp&nbsp<button id="button" onclick="showhide3()"style="opacity: 80%;">KNOW MORE</button>&nbsp&nbsp&nbsp<a id='first'href="https://www.practo.com/chennai/doctor/dr-prasanna-kumar-thomas-pediatric-surgeon"style="font-size: 50%;padding: 1.15%;opacity: 80%;">BOOK APPOINTMENT</a>
+       <br>
+       <h2>Dr. A S Natarajan</h2><img src="https://imagesx.practo.com/providers/deff005b-693d-4cab-a9bb-203147739128.jpg?i_type=t_100x100" width="150" height="150"><p>MBBS, MD - General Medicine<br>General Physician,Internal Medicine<br>40 Years Experience Overall  (37 years as specialist)</p>
+        <li id='4' style="display: none;">
+        <p>Dr. Natarajan is a senior consultant pulmonology in Vijaya Health Care, Chennai. He has 31 years of experience in this field. He is a very knowledgeable and patient physician. He did MBBS, MD in TB and Chest Diseases, DCH and DTCD. He was also awarded lifetime achievement award by Dr. M G R University. He is currently practicing at Vijaya Health Care Vadapalani. </p>
+        <p>Address:<br>No 434, Nsk Salai, Vadapalani, Chennai, 600026, Opposite bus stop</p>
+        <p>FEE:Rs.700</p>
+        <p>Timings: Monday to Saturday 10:00 am – 1:00 pm and 5:00 pm – 7:00 pm</p></li>
+        &nbsp&nbsp&nbsp&nbsp<button id="button" onclick="showhide4()"style="opacity: 80%;">KNOW MORE</button>&nbsp&nbsp&nbsp<a id='first'href="https://www.practo.com/chennai/doctor/dr-s-nagarajan-general-physician?practice_id=761379&specialization=general%20physician"style="font-size: 50%;padding: 1.15%;opacity: 80%;">BOOK APPOINTMENT</a>
+        <br>
+        <h2>Dr. Narasimhan R</h2><img src="https://imagesx.practo.com/providers/b9b0b338-7cbd-44eb-9320-4d33117f2d04.jpg?i_type=t_100x100" width="150" height="150"><p>MBBS<br>General Physician<br>30 Years Experience Overall</p>
+        <li id='5' style="display: none;">
+         <p>Dr. Narasimhan R is a highly trained and knowledgeable doctor who has 35 years of experience in this field. He did MBBS, DTCD and MD from SV Medical College, Tirupati. He is one of the best pulmonologists in Chennai. He is a member of several prestigious institutions like American Academic of Sleep, Indian Association of Bronchology, Indian Chest Society, British Thoracic Society, American Thoracic Society and many others. He owns fellowship from Royal College of Physicians, Edinburgh and Royal College of Physicians, Glasgow. He is currently practicing at Apollo Hospitals Greams Lane</p>
+        <p>FEE:Rs.1200</p>
+        <p>Timings: Monday to Saturday 9:30 am – 10:30 am and 2:00 pm – 3:00 pm</p></li>
+        &nbsp&nbsp&nbsp&nbsp<button id="button" onclick="showhide5()"style="opacity: 80%;">KNOW MORE</button>&nbsp&nbsp&nbsp<a id='first'href="https://www.practo.com/chennai/doctor/narasimhan-pulmonologist"style="font-size: 50%;padding: 1.15%;opacity: 80%;">BOOK APPOINTMENT</a>
+            
+        <br>
+        <h2>Dr. V Gangadharan</h2><img src="https://imagesx.practo.com/providers/93f5a799-1699-4b4d-9b38-46595cff0c24.jpg?i_type=t_100x100" width="150" height="150"><p>MBBS,MD - General Medicine<br>Internal Medicine<br>42 Years Experience Overall(39 years as specialist)</p>
+        <li id='6' style="display: none;">
+        <p>Dr. Gangadharan is a consultant- pulmonology who has a very rich experience in this field. He is a reputed chest specialist with a degree of MBBS, MD, DTCD. He has a good 16 years of experience in this field. He maintained his reputation thoroughly and gives his patients undivided attention. He is a member of many reputed institutes. He is undoubtedly one of the best pulmonologists in Chennai. He is currently practicing at VeeCare Hospital, Anna Nagar. </p>
+        <p>Address:<br>No 106, Jawaharlal Nehru Salai, Near Koyembadu Junction, Thirumangalam, Anna Nagar, Chennai, Tamil Nadu, 600040.</p>
+        <p>FEE:Rs.400</p>
+        <p>Timings: Monday and Thursday 5:00 pm – 8:00 pm</p></li>
+        &nbsp&nbsp&nbsp&nbsp<button id="button" onclick="showhide6()"style="opacity: 80%;">KNOW MORE</button>&nbsp&nbsp&nbsp<a id='first'href="https://www.practo.com/chennai/doctor/dr-sgd-gandadhar-oncologist"style="font-size: 50%;padding: 1.15%;opacity: 80%;">BOOK APPOINTMENT</a>
+        
+        <br>
+        <h2>Dr. K Vijayasaratha</h2><img src="https://imagesx.practo.com/providers/69104630-e29b-4bc2-ad73-b1301d0c9db8.jpg?i_type=t_100x100" width="150" height="150"><p>MBBS<br>General Physiciane<br>51 years experience overall</p>
+        <li id='7' style="display: none;">
+        <p>Dr. Vijayasaratha is a consultant-respiratory and interventional pulmonology in Fortis Malar Hospital with a degree of MBBS, MD in TB and Respiratory Diseases, DNB in Pulmonary Medicine. She has a rich experience of 21 years in this field. She is a member of European Respiratory Society, Indian Chest Society and American Academy for Asthma Allergy and Immunology. She was awarded best outgoing student MBBS and best outgoing student MD. She is currently practicing at Fortis Malar Hospital, Chennai.</p>
+        <p>Address:<br>No 52, 1st main road, Gandhi Nagar, Adhyar, Chennai, Tamil Nadu, 600020</p>
+        <p>FEE:Rs.500</p>
+        <p>Timings:Monday to Saturday 9:00 am – 11:00 am</p></li>
+        &nbsp&nbsp&nbsp&nbsp<button id="button" onclick="showhide7()"style="opacity: 80%;">KNOW MORE</button>&nbsp&nbsp&nbsp<a id='first'href="https://www.practo.com/chennai/doctor/dr-k-vijayasarthy-oncologist"style="font-size: 50%;padding: 1.15%;opacity: 80%;">BOOK APPOINTMENT</a>
+     
+        <br>
+        <h2>Dr. V Surya Narayana</h2><img src="https://imagesx.practo.com/providers/afdf39f0-06bb-48f3-ac23-f537ae3f8c72.jpg?i_type=t_100x100" width="150" height="150"><p>MBBS, MD - General Medicine, MRCP (UK), DNB - General Medicine, DNB - Infectious Disease<br>Infectious Diseases Physician<br>33 Years Experience Overall  (14 years as specialist)</p>
+        <li id='8' style="display: none;">
+        <p>Dr. Narayana is a consultant- pulmonology in Apollo Speciality Hospital, Vanagaram. He has 26 years of rich experience in this field. He did MBBS and then MD in pulmonary medicine. He is a member of Indian Medical Association and Tamil Nadu Chest Society. He is a reputed chest specialist and gives his patients undivided attention. He is currently practicing at Apollo Hospitals, Vanagaram. </p>
+        <p>Address:<br>Vanagaram- Ambattur Road, Maduravoyal, Adayalampattu, Tamil Nadu, 600095</p>
+        <p>FEE:Rs.1200</p>
+        <p>Timings:Mon - Sat 02:00 PM - 06:00 PM(Apollo Hospital) Mon, Wed, Fri 11:00 AM - 12:00 PM(Apollo Children's Hospital)</p></li>
+        &nbsp&nbsp&nbsp&nbsp<button id="button" onclick="showhide8()"style="opacity: 80%;">KNOW MORE</button>&nbsp&nbsp&nbsp<a id='first'href="https://www.practo.com/hyderabad/doctor/dr-surya-narayana-reddy-pediatrician"style="font-size: 50%;padding: 1.15%;opacity: 80%;">BOOK APPOINTMENT</a>
+      
+        <br>
+        <h2>Dr. Sundarajan L</h2><img src="https://www.logintohealth.com/assets/uploads/doctors/00a072a5551a69a06cf4751aeeec824b.jpg" width="150" height="150"><p>MBBS, MD - General Medicine<br>Internal Medicine<br>32 Years Experience Overall  (29 years as specialist)</p>
+        <li id='9' style="display: none;">
+        <p>Dr. Sundarajan L is a well-known chest specialist having a rich experience of 15 years. He is a consultant respiratory medicine at Apollo Hospital Greams Lane. He is one of the best pulmonologists. He holds a degree of MBBS and MD in general medicine. He holds a membership of MRCP from UK. He also took training in CCST- respiratory medicine from UK. He is currently practicing at Apollo Hospitals Greams Lane </p>
+        <p>Address:<br>APOLLO HOSPITAL 21/22 Greams Lane, Thousand Lights, Off Greams Road, Landmark: Near Asan Memorial Senior Secondary School., Greams Road, Chennai</p>
+        <p>FEE:Rs.600</p>
+        <p>Timings:Monday to Saturday 10:00 am – 11:00 am.</p></li>
+        &nbsp&nbsp&nbsp&nbsp<button id="button" onclick="showhide9()"style="opacity: 80%;">KNOW MORE</button>&nbsp&nbsp&nbsp<a id='first'href="https://www.logintohealth.com/pulmologist-chest-physician-critical-care/sundararajan-l"style="font-size: 50%;padding: 1.15%;opacity: 80%;">BOOK APPOINTMENT</a>
+    
+        <br>
+        <h2>Dr. Gayathri A R</h2><img src="https://imagesx.practo.com/providers/f33389fc-28f7-4706-b14f-d4db3e542f42.jpg?i_type=t_100x100 " width="150" height="150"><p>MBBS, MD - General Medicine<br>Internal Medicine<br>34 Years Experience Overall  (34 years as specialist)</p>
+        <li id='10' style="display: none;">
+        <p>Dr. Gayathri A R is a consultant- respiratory medicine at Apollo Hospital Greams Lane. She has an enormous knowledge in this field. She is a well-known chest specialist and holds a degree of MBBS, MD, and FCCP. She is a member of European Respiratory Society, Indian Association for Bronchology and The Indian Chest. She is currently practicing at Apollo Hospitals Greams Lane. </p>
+        <p>Address:<br>APOLLO HOSPITAL 21/22 Greams Lane, Thousand Lights, Off Greams Road, Landmark: Near Asan Memorial Senior Secondary School., Greams Road, Chennai</p>
+        <p>FEE:Rs.600</p>
+        <p>Timings: Monday to Saturday 2:00 pm – 4:00 pm and 9:00 am – 10:30 am</p></li>
+        &nbsp&nbsp&nbsp&nbsp<button id="button" onclick="showhide10()"style="opacity: 80%;">KNOW MORE</button>&nbsp&nbsp&nbsp<a id='first'href="https://www.practo.com/chennai/doctor/gayathri-a-r-pulmonologist"style="font-size: 50%;padding: 1.15%;opacity: 80%;">BOOK APPOINTMENT</a>
+    
+ <br><br></div><br><br>
+      <div id='add' style=" background-image: url(https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?size=626&ext=jpg);background-repeat: no-repeat;background-size: cover;background-color: rgba(0,0,0, 0.4);text-align: center; ">
+        <br>
+        <br>
+        <br>
+        <a href="" style="text-decoration: none;color:white; font-size: 150%;">Click Here to ADD a pulmonologist you know as the BEST!!</a>
+        <br>
+        <br>
+        <br>
+        </div>
+    </div>
+    <br><br>
+    <div style="background-image: url('https://image.freepik.com/free-photo/shades-blue-white-background_23-2147746645.jpg');background-color: rgba(0,0,0, 0.6);background-blend-mode: darken;color: white;font-size: 100%;font-style: italic;font-family:cursive;"><br>
+        <p style="padding-left: 5%;">Contact<br>Mobile:1234567891<br>Email:abcd123@gmail.com</p>
+        <p style="padding-left: 5%; ">Follow us on<img src="https://www.beachrealtync.com/sites/default/files/uploads/socials_3.png" width=10% style="padding-left: 2%;
+        vertical-align: middle" ></p><br>
+    </div>
+    
+</body>
+</html>

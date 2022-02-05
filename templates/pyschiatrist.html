@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+  <title>pyschiatrist</title>
+ <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}"> 
+</head>
+    <style>
+    body::-webkit-scrollbar
+    {
+        display:none;
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;
+        
+    }
+        body
+        {
+             background-image: url('https://thumbs.gfycat.com/AmazingSpecificAndalusianhorse-size_restricted.gif');      
+            background-blend-mode: darken(70%);
+        }
+.navbar,.navbar1,.desc{
+  overflow: hidden;
+  font-family: Times New Roman;
+}
+button
+    {
+        color: white;
+        background-color: #00BFFF;
+        border-color: #00BFFF;
+        padding:0.9%;
+    }
+.cropped1
+    {
+        padding: 0%;
+        width: 5%;
+        height: 5%;
+        vertical-align: middle;
+        font-size: 150%;
+    }
+p{
+        color: white;
+        font-size: 100%;
+        padding: 2%
+    }
+h2,p
+    {
+        color: white;
+        padding-left: 2%;
+    }
+li
+    {
+        list-style-type: none;
+        padding: 5%;
+
+    }
+#first
+    {
+        text-decoration: none;
+        color: white;
+        background-color: #00BFFF;
+        padding:0.5%;
+        border-color: #00BFFF;
+    }
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+   padding: 14px 16px;
+  text-decoration: none;
+}
+img
+    {
+        padding-left: 4%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+.cropped1
+    {
+           padding-left: 2%;
+        vertical-align: middle;
+        font-size: 150%;
+    }
+.navbar{
+    background-image: url('https://image.freepik.com/free-photo/shades-blue-white-background_23-2147746645.jpg');
+    background-color: rgba(0,0,0, 0.3);
+    background-blend-mode: darken;
+
+        color: white;
+        font-size: 100%;
+    font-style: italic;
+    font-family:cursive;
+        padding-left: 2%;
+ 
+    }
+div.scrollmenu {
+    padding-top: 1%;
+
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: rgb(30,144,255);
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+    font-family: cursive,monospace;
+}
+
+div.scrollmenu a:hover {
+  background-color: rgb(135,206,235);
+}
+.scrollmenu {
+  background-color: #eee;
+  width: 100%;
+  height: 100%;
+  
+  overflow-y: scroll; /* Add the ability to scroll */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrollmenu::-webkit-scrollbar {
+    width: 2%;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrollmenu {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: 2%;  /* Firefox */
+}
+    
+.mySlides
+        {
+            display: none;
+        }
+.gify{
+  border-radius: 100px;
+}
+
+    </style>
+<script>
+var slideIndex = 0;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+    
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+<script>
+     function showhide1()
+     {
+           var li = document.getElementById("1");
+    if (li.style.display !== "block") {
+        li.style.display = "block";
+    }
+    else {
+        li.style.display = "none";
+    }
+     }
+    function showhide2()
+     {
+           var li = document.getElementById("2");
+    if (li.style.display !== "block") {
+        li.style.display = "block";
+    }
+    else {
+        li.style.display = "none";
+    }
+     }
+     function showhide3()
+     {
+           var li = document.getElementById("3");
+    if (li.style.display !== "block") {
+        li.style.display = "block";
+    }
+    else {
+        li.style.display = "none";
+    }
+     }
+     function showhide4()
+     {
+           var li = document.getElementById("4");
+    if (li.style.display !== "block") {
+        li.style.display = "block";
+    }
+    else {
+        li.style.display = "none";
+    }
+     }
+    function showhide5()
+     {
+           var li = document.getElementById("5");
+    if (li.style.display !== "block") {
+        li.style.display = "block";
+    }
+    else {
+        li.style.display = "none";
+    }
+     }
+    function showhide6()
+     {
+           var li = document.getElementById("6");
+    if (li.style.display !== "block") {
+        li.style.display = "block";
+    }
+    else {
+        li.style.display = "none";
+    }
+     }
+    function showhide7()
+     {
+           var li = document.getElementById("7");
+    if (li.style.display !== "block") {
+        li.style.display = "block";
+    }
+    else {
+        li.style.display = "none";
+    }
+     }
+    function showhide8()
+     {
+           var li = document.getElementById("8");
+    if (li.style.display !== "block") {
+        li.style.display = "block";
+    }
+    else {
+        li.style.display = "none";
+    }
+     }
+    function showhide9()
+     {
+           var li = document.getElementById("9");
+    if (li.style.display !== "block") {
+        li.style.display = "block";
+    }
+    else {
+        li.style.display = "none";
+    }
+     }
+    function showhide10()
+     {
+           var li = document.getElementById("10");
+    if (li.style.display !== "block") {
+        li.style.display = "block";
+    }
+    else {
+        li.style.display = "none";
+    }
+     }
+</script>
+
+<body>
+<div class='navbar' id='title'>
+    <div></div>
+    <div></div>
+    <p style="font-size: 140%"><img class="cropped1" src="https://drive.google.com/thumbnail?id=1JQ6epr36ugrVF7cuTlYMw9kL7J-pZrfd" width=5%; height="5%;">&nbsp HEALTH COMPANION</p></div>
+    <div class="scrollmenu">
+             <a href="index.html" >HOME</a>
+           
+            <a href='Consulting%20doctors.html' >CONSULTING</a>
+             <a href='https://aiforecasting.herokuapp.com/' >CHECK MY HEALTH</a>
+             <a href="AI%20predictions.html" >AI PREDICTIONS</a>
+             <a href="Hospital.html">HOSPITAL CONSULTING</a>      
+             
+                 <a href="HealthyTips.html">HEALTH TIPS</a>
+                 <a href="food1-1.html">FOOD INFO</a>
+                  <a href="Disease%20information.html">DISEASE INFO</a>
+             </div>
+  <br>
+  <br>
+  <br>
+ <div style="color: white; ">
+<div class="navbar1" style="align-self:  center; color: white; font-display:auto; font-size: 100%; background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20190221/ourmid/pngtree-blue-technology-geometric-polygon-image_28240.jpg');background-repeat: no-repeat;background-size: cover;background-color: rgba(0,0,0, 0.4);">
+    <div class="split left" style="float:left;width: 45%;">
+   <img class="gify" src="https://media4.giphy.com/media/U1mESeTwjutYCcnNsi/giphy.gif?cid=6c09b9522p5g61kml482vikx4vzcfcgw916jscorlcwl27ix&rid=giphy.gif&ct=s"width="400" height="350">
+
+
+</div>
+<div class="split right" style="float:right;width: 55%;">
+     <br>
+    <p style="padding-left: 1%;font-size: 200%; ">PYSCHIATRIST</p>
+        <p style="padding-left: 1%; font-size: 150%;">Psychiatrists are specialists who deal specifically with the diagnosis and treatment of mental, behavior, and emotional disorders. The main purpose of a psychiatrist is to help people cope with issues and stress in their lives and surroundings that make it difficult to lead a happy and normal lifestyle. These issues may arise due to past experiences like abuse, trauma, mental disability and disease, or addiction. With the increasing levels of stress and growing mental awareness, the demand for psychiatrists has risen sharply in recent years and continues to stand at an all-time high. There’s still a certain level of hesitation to come out openly about the mental ailments people experience because of several social stigma. But consulting an expert near your location will only help you ensure a healthy attitude and lifestyle.  And you shouldn’t be doubtful at all. After all it’s your life at stake.</p>
+</div>
+</div>    
+<br>
+    <div id='list' style="background-image: url(https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?size=626&ext=jpg);font-size: 150%; padding-left:5%;background-repeat: no-repeat;background-size: cover;background-color: rgba(0,0,0, 0.4); text-align:  center;">
+<br>
+      <h2>Dr. Vasantha Jayaram</h2><img src="https://imagesx.practo.com/providers/4ef6f214-c55c-4760-a73d-02ed207066fe.jpg?i_type=t_100x100"width="150" height="150"><p>MBBS, DPM (Psychiatry),<br> DNB - Psychiatry
+
+Psychiatrist<br>
+39 Years Experience Overall  (35 years as specialist)</p>
+        <li id='2' style="display: none;">
+        <p> Specific interests : Women & mental health.<br>
+
+Child & Adolescent Psychiatry.<br>
+
+Stress -related disorders.<br>
+
+Addictive disorders.<br>
+
+Geriatric disorders</p>
+        <p>Address:<br>Old Number 25, New Number 14, Sreenivasapuram 2nd Street, Landmark: Near RTO Office, Chennai</p>
+        <p>FEE:Rs.1000</p>
+        <p>Timings:Mon - Sat
+
+11:00 AM - 01:00 PM
+08:00 PM - 09:00 PM<br>
+
+Sun
+
+11:00 AM - 01:00 PM</p></li>
+        &nbsp&nbsp&nbsp&nbsp<button id="button" onclick="showhide2()"style="opacity: 80%;">KNOW MORE</button>&nbsp&nbsp&nbsp<a id='first'href="https://www.practo.com/chennai/doctor/dr-vasantha-jayaram-1?practice_id=1171019&specialization=psychiatrist"style="font-size: 50%;padding: 1.15%;opacity: 80%;">BOOK APPOINTMENT</a>
+        <h2>Dr. Ennapadam S. Krishnamoorthy</h2><img src="https://imagesx.practo.com/providers/8fffe200-6b3f-4961-8695-3b0ff80aa528.jpg?i_type=t_100x100"width="150" height="150"><p>MBBS, M.D. (Psychiatry)
+
+Neuropsychiatrist,<br> Psychiatrist<br>
+30 Years Experience Overall  (26 years as specialist)</p>
+        <li id='2' style="display: none;">
+        <p> Prof. Dr. Ennapadam S Krishnamoorthy (ESK) MBBS, MD, DCN (Lond), Ph.D. (Lond), FRCP (Lond, Edin & Glas), MAMS (India), FIMSA, FIPS. Internationally recognized, he has special interests and experience in epilepsy, dementia, autism, neurorehabilitation, behavioural management & new treatment modalities.<br>
+
+He has edited and authored books on epilepsy & dementia for Cambridge University Press and has over 100 publications to his credit. He is President of the International Neuropsychiatric Association - the first person working in a developing nation to be so elected. He is an adjunct professor- Public Health Foundation of India & Manipal University</p>
+        <p>Address:<br>No. 12 / 14, 2nd Cross Street, Seethammal Extension,, Landmark: OPP. SIET College, Chennai</p>
+        <p>FEE:Rs.1500</p>
+        <p>Timings:Mon - Tue, Thu - Sat
+
+09:00 AM - 07:00 PM<br>
+
+Wed
+
+09:00 AM - 01:00 PM</p></li>
+        &nbsp&nbsp&nbsp&nbsp<button id="button" onclick="showhide2()"style="opacity: 80%;">KNOW MORE</button>&nbsp&nbsp&nbsp<a id='first'href="https://www.practo.com/chennai/doctor/dr-ennapadam-krishnamurthy-neurologist?practice_id=1303946&specialization=psychiatrist"style="font-size: 50%;padding: 1.15%;opacity: 80%;">BOOK APPOINTMENT</a>
+         
+         
+        <br>
+        <h2>
+Dr. Sivabalan Elangovan</h2><img src="https://imagesx.practo.com/providers/20b63d37-85a9-4c2b-8d16-5ec111430513.jpg?i_type=t_100x100"width="150" height="150"><p>MBBS, M.D. (Psychiatry)<br>
+
+Psychiatrist, Geriatric Psychiatrist<br>
+16 Years Experience Overall  (10 years as specialist)</p>
+        <li id='3' style="display: none;">
+        <p> Dr. Sivabalan Elangovan is a Psychiatrist in Anna Nagar, Chennai and has an experience of 11 years in this field. Dr. Sivabalan Elangovan himself is a writer and many books related to mind and mental health. He participated many TV shows and written many articles in leading magazines. He completed MBBS from Trichi Medical College in 2005 and M.D Psychiatry from Stanley Medical College & Hospital, Chennai in 2011.<br>
+
+He is a member of Indian Psychiatric Society</p>
+        <p>Address:<br>Flat Number:1,F Block, 1st Street, Landmark: Nearby Anna Nagar East Metro, Chennai</p>
+        <p>FEE:Rs.750</p>
+        <p>Timings: Mon - Sat
+
+10:00 AM - 04:00 PM
+04:30 PM - 09:00 PM</p></li>
+        &nbsp&nbsp&nbsp&nbsp<button id="button" onclick="showhide3()"style="opacity: 80%;">KNOW MORE</button>&nbsp&nbsp&nbsp<a id='first'href="https://www.practo.com/chennai/doctor/dr-sivabalan-elangovan-psychiatrist?practice_id=1324351&specialization=psychiatrist"style="font-size: 50%;padding: 1.15%;opacity: 80%;">BOOK APPOINTMENT</a>
+       <br>
+       <h2>Dr. Esther Suresh</h2><img src="https://imagesx.practo.com/providers/139fff5f-8e39-4052-9e99-9a0296c8e07a.jpg?i_type=t_100x100"width="150" height="150"><p>MBBS, DPM (Psychiatry)<br>
+
+Psychiatrist<br>
+26 Years Experience Overall  (21 years as specialist)</p>
+        <li id='4' style="display: none;">
+        <p>Dr. Esther Suresh is a Psychiatrist in Anna Nagar, Chennai and has an experience of 19 years in this field. Dr. Esther Suresh practices at ROFECHA in Anna Nagar, Chennai. She completed MBBS from Dr.MGR Medical University in 1997 and Diploma in Psychological Medicine from Dr.MGR Medical University in 2000. </p>
+        <p>Address:<br>Y-58(New) / 15(Old), 5th Avenue, Landmark: Same Compound as Chennai Cakes & Opposite Jesse Moses School, Chennai</p>
+        <p>FEE:Rs.800</p>
+        <p>Timings:Mon - Sat
+
+12:00 PM - 02:00 PM
+06:00 PM - 08:00 PM  </p></li>
+        &nbsp&nbsp&nbsp&nbsp<button id="button" onclick="showhide4()"style="opacity: 80%;">KNOW MORE</button>&nbsp&nbsp&nbsp<a id='first'href="https://www.practo.com/chennai/doctor/dr-esther-suresh-psychiatrist?practice_id=672630&specialization=psychiatrist"style="font-size: 50%;padding: 1.15%;opacity: 80%;">BOOK APPOINTMENT</a>
+        <br>
+        <h2>
+Dr. Janaki Rajagopalan</h2><img src="https://imagesx.practo.com/providers/88a473f1-e272-4ec0-b57d-a97975167fcc.jpg?i_type=t_100x100"width="150" height="150"><p>MBBS, M.D. (Psychiatry), DNB - Psychiatry<br>
+
+Psychiatrist<br>
+17 Years Experience Overall  (13 years as specialist)</p>
+        <li id='5' style="display: none;">
+         <p>Dr. Janaki Rajagopalan. Her qualifications are MBBS, MD(Psychiatry), DNB (Psychiatry), FRANZCP, MRCPSCYCH (Edin). She has 15 years experience in psychiatry (12 years as a specialist).<br>
+
+Dr. Janaki Rajagopalan trained in one of the most reputed colleges of India (Maulana Azad medical college, Delhi University). She received the prestigious Young Psychiatrist Award from the Delhi Psychiatric Society in 2006. She completed her MD in 2008 and served as an assistant professor of psychiatry at Sri Ramachandra University Porur for the next 4 years. Subsequently, she went to Australia to obtain a Fellowship of the Royal Australian and New Zealand College of Psychiatry. She worked as a general adult psychiatrist in Australia until January 2016. She is a member of the Royal College of Psychiatry, Edinburgh.<br>
+
+Dr. Janaki speaks: Emotional well-being is not only the absence of emotional illness but also the ability to adapt and remote successfully in ever changing and demanding situations. Our aim as psychiatrists should be to help people know and reach their potential. </p>
+         <p>Address:<br>1/10A, Promed Hospital, Kottivakkam, ECR Road, Landmark: Near Shraddha Children's Academy, Chennai</p>
+        <p>FEE:Rs.1200</p>
+        <p>Timings: Mon - Sun
+
+11:00 AM - 01:00 PM </p></li>
+        &nbsp&nbsp&nbsp&nbsp<button id="button" onclick="showhide5()"style="opacity: 80%;">KNOW MORE</button>&nbsp&nbsp&nbsp<a id='first'href="https://www.practo.com/chennai/doctor/janaki-rajagopalan?practice_id=1136371&specialization=psychiatrist"style="font-size: 50%;padding: 1.15%;opacity: 80%;">BOOK APPOINTMENT</a>
+            
+        <br>
+        <h2>Dr. Vinayak V</h2><img src="https://imagesx.practo.com/providers/0603ed15-fd69-4f0f-a46c-cbb486b6e405.jpg?i_type=t_100x100"width="150" height="150"><p>MBBS, DPM (Psychiatry),<br> M.D. (Psychiatry)
+
+Psychiatrist<br>
+15 Years Experience Overall  (13 years as specialist)</p>
+        <li id='6' style="display: none;">
+        <p> Dr. Vinayak V is a Psychiatrist in T Nagar, Chennai and has an experience of 8 years in this field. Dr. Vinayak V practices at Raju Hospital in T Nagar, Chennai. He completed MBBS from Manipal University in 2006, Diploma in Psychological Medicine from Manipal University in 2008 and MD - Psychiatry from MGPGI, Puducherry in 2010.<br>
+
+He is a member of Tamilnadu Medical Council.</p>
+        
+        <p>Address:<br>5/7, Lalithanagar, Papanasam Sivan Road, Landmark: Near Rosary Matriculation School, Chennai</p>
+        <p>FEE:Rs.750</p>
+        <p>Timings: Mon - Sat
+
+02:15 PM - 05:15 PM
+05:30 PM - 06:45 PM</p></li>
+        &nbsp&nbsp&nbsp&nbsp<button id="button" onclick="showhide6()"style="opacity: 80%;">KNOW MORE</button>&nbsp&nbsp&nbsp<a id='first'href="https://www.practo.com/chennai/doctor/vinayak-vijayakumar-psychiatrist?practice_id=776777&specialization=psychiatrist"style="font-size: 50%;padding: 1.15%;opacity: 80%;">BOOK APPOINTMENT</a>
+        
+        <br>
+        <h2>
+Dr. Vijayakumar S</h2><img src="https://imagesx.practo.com/providers/9a7ac5c6-e724-4861-a268-58e0dc26a8ae.jpg?i_type=t_100x100"width="150" height="150"><p>MBBS, DPM (Psychiatry)<br>
+
+Psychiatrist<br>
+49 Years Experience Overall  (46 years as specialist)</p>
+        <li id='7' style="display: none;">
+        <p>Dr. Vijayakumar S is a Psychiatrist in Santhome, Chennai and has an experience of 49 years in this field. Dr. Vijayakumar S practices at Vijayakumars Clinic in Santhome, Chennai. He completed MBBS from Pune University in 1972 and DPM (Psychiatry) from Bangalore University in 1975</p>
+        <p>Address:<br>5/7, Lalithanagar, Papanasam Sivan Road, Landmark: Near Rosary Matriculation School, Chennai</p>
+        <p>FEE:Rs.700</p>
+        <p>Timings:On call</p></li>
+        &nbsp&nbsp&nbsp&nbsp<button id="button" onclick="showhide7()"style="opacity: 80%;">KNOW MORE</button>&nbsp&nbsp&nbsp<a id='first'href="https://www.practo.com/chennai/doctor/dr-vijayakumar-s-psychiatrist?practice_id=776777&specialization=psychiatrist"style="font-size: 50%;padding: 1.15%;opacity: 80%;">BOOK APPOINTMENT</a>
+     
+        <br>
+        <h2>Dr. Poongodi Bala</h2><img src="https://imagesx.practo.com/providers/793b1d27-66ba-4b9f-82fa-0cbe35fe4a46.jpg?i_type=t_100x100"width="150" height="150"><p>MBBS, MRCPsych, CCT- Child and Adolescent Psychiatry<br>
+
+Adolescent And Child Psychiatrist<br>
+19 Years Experience Overall  (8 years as specialist)</p>
+        <li id='8' style="display: none;">
+        <p> Dr. Poongodi MBBS, MRCPsych (UK), CCT in Child Psychiatry (UK) is a UK trained Child and Adolescent Psychiatrist (Manchester, UK) with 13 years of experience in various aspects of Psychiatry. She completed her extensive training in Child and Adolescent Psychiatry in Manchester following which she worked as a Consultant Child and Adolescent Psychiatrist prior to her move to India in June 2017. She has successfully managed several hundreds of cases of ADHD, Autism, Behavioural difficulties, Learning difficulties, School Related Issues, Obsessive Compulsive Disorder, Dyslexia, Tics, Medically Unexplained Symptoms, Depression, Suicidal/Self-harm thoughts, Anxiety, Psychosomatic problems, Psychosis, Addiction, Sleep difficulties, Sibling rivalry, Gender Identity Disorder, Eating disorder, Personality disorder, Grief and Post-traumatic stress disorder.<br> She provides counseling to improve self-esteem, confidence and school performance. She provides parenting guidance and support for behavioral problems in children. She has completed and presented various research projects at UK National Conferences including an extensive project on autism in children with Neurofibromatosis. She has had special training in Psychodynamic therapy, Family Therapy, CBT therapy, Webster Parental Training and ADOS assessment for autism in the UK. Dr. Poongodi has experience in both psychotherapeutic techniques and medication treatment options enable her to offer a holistic care. She believes in improving children’s emotional well-being by helping them cope better with challenging situations to boost their confidence and self-esteem as well as with appropriate guidance and support to parents</p>
+        <p>Address:<br>No 34/1, Vaigai colony,second street, 12th Avenue, Ashok nagar, Backside of the Shens Hospital, Near KFC, Landmark: Near KFC ,Ashok pillar, Chennai
+
+
+</p>
+        <p>FEE:Rs.1000</p>
+        <p>Timings:
+
+Mon, Wed
+
+02:00 PM - 08:00 PM<br>
+
+Tue, Thu, Sat
+
+09:00 AM - 01:00 PM
+02:00 PM - 08:00 PM
+</p></li>
+        &nbsp&nbsp&nbsp&nbsp<button id="button" onclick="showhide8()"style="opacity: 80%;">KNOW MORE</button>&nbsp&nbsp&nbsp<a id='first'href="https://www.practo.com/chennai/doctor/dr-b-poongodi-child-psychiatrist-psychiatrist?practice_id=1260533&specialization=psychiatrist"style="font-size: 50%;padding: 1.15%;opacity: 80%;">BOOK APPOINTMENT</a>
+        
+        <br>
+        <h2>Dr. Deepa Gopinath</h2><img src="https://imagesx.practo.com/providers/3fbd94cd-ab73-4eb8-b35a-ded6ded1dd74.jpg?i_type=t_100x100"width="150" height="150"><p>M.D. (Psychiatry), MBBS<br>
+
+Psychiatrist<br>
+9 Years Experience Overall  (5 years as specialist)</p>
+        <li id='9' style="display: none;">
+        <p>Dr. Deepa Gopinath is a Psychiatrist in Nanganallur, Chennai and has an experience of 5 years in this field. Dr. Deepa Gopinath practices at Chennai Mind Clinic in Nanganallur, Chennai. She completed M.D. (Psychiatry) from National Institute of Mental Health and Neurosciences (NIMHANS) in 2016 and MBBS from Stanley Medical College & Hospital , Chennai in 2012.</p>
+        <p>Address:<br>A8, 1st Floor, Senthuran Colony, Medavakkam Main Road, Landmark: Above KIDZON, Chennai</p>
+        <p>FEE:Rs.1000</p>
+        <p>Timings:Tue
+
+04:00 PM - 07:30 PM<br>
+
+Wed
+
+05:30 PM - 07:30 PM<br>
+
+Thu
+
+04:00 PM - 06:15 PM
+06:30 PM - 07:30 PM
+
+Sat
+
+04:00 PM - 07:00 PM</p></li>
+        &nbsp&nbsp&nbsp&nbsp<button id="button" onclick="showhide9()"style="opacity: 80%;">KNOW MORE</button>&nbsp&nbsp&nbsp<a id='first'href="https://www.practo.com/chennai/doctor/dr-deepa-gopinath-psychiatrist?practice_id=1260999&specialization=psychiatrist"style="font-size: 50%;padding: 1.15%;opacity: 80%;">BOOK APPOINTMENT</a>
+    
+        <br>
+        <h2>Dr. Hema Tharoor</h2><img src="https://imagesx.practo.com/providers/1cbd7886-f53d-463a-ab2d-fa4a9b8bdab8.jpg?i_type=t_100x100"width="150" height="150"><p>MBBS, DNB - Psychiatry, DPM (Psychiatry)<br>
+
+Psychiatrist<br>
+27 Years Experience Overall  (21 years as specialist)</p>
+        <li id='9' style="display: none;">
+        <p>Dr. Hema Tharoor is a Paediatric Psychiatric at Dr. Mehtas Hospital and RSR'S Trinity Acute Care Hospital, Chennai. She is an expert in treating disorders like bipolar disorder, psychiatric disorder, mood disorders, and behavioural science. She has won various awards such as Re-entry Grant to work on Lithium response and Serotonin transporter gene in Biploar Disorder in 2008 by FIC-ICOHRTA, TMA PAI Gold Medal for Excellence in Medical Research (March 2008), and Fogarty International Center-International Clinical, Operational and Health services Research Training Award (FIC-ICOHRTA) Post-Doctoral Fellowship, 2006 - 2007. She has completed MBBS, DPM, and DNB (Psychiatry) from renowned institutions of the country.  </p>
+        <p>Address:<br>12, C P Ramaswamy Road., Landmark: Near to Fly Over, Chennai</p>
+        <p>FEE:Rs.800</p>
+        <p>Timings:Mon - Sat
+
+02:30 PM - 06:30 PM</p></li>
+        &nbsp&nbsp&nbsp&nbsp<button id="button" onclick="showhide9()"style="opacity: 80%;">KNOW MORE</button>&nbsp&nbsp&nbsp<a id='first'href="https://www.practo.com/chennai/doctor/dr-hema-tharoor-psychiatrist-1?practice_id=1132595&specialization=psychiatrist"style="font-size: 50%;padding: 1.15%;opacity: 80%;">BOOK APPOINTMENT</a>
+    
+    <br><br></div><br><br>
+      <div id='add' style=" background-image: url(https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?size=626&ext=jpg);background-repeat: no-repeat;background-size: cover;background-color: rgba(0,0,0, 0.4);text-align: center; ">
+        <br>
+        <br>
+        <br>
+        <a href="" style="text-decoration: none;color:white; font-size: 150%;">Click Here to ADD a pyschiatrist you know as the BEST!!</a>
+        <br>
+        <br>
+        <br>
+        </div>
+    </div>
+    <br><br>
+    <div style="background-image: url('https://image.freepik.com/free-photo/shades-blue-white-background_23-2147746645.jpg');background-color: rgba(0,0,0, 0.6);background-blend-mode: darken;color: white;font-size: 100%;font-style: italic;font-family:cursive;"><br>
+        <p style="padding-left: 5%;">Contact<br>Mobile:1234567891<br>Email:abcd123@gmail.com</p>
+        <p style="padding-left: 5%; ;">Follow us on<img src="https://www.beachrealtync.com/sites/default/files/uploads/socials_3.png" width=10% style="padding-left: 2%;
+        vertical-align: middle" ></p><br>
+    </div>
+    
+</body>
+</html>

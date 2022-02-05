@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+  <title>Oncologist</title>
+ <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}"> 
+</head>
+    <style>
+    body::-webkit-scrollbar
+    {
+        display:none;
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;
+        
+    }
+        body
+        {
+             background-image: url('https://thumbs.gfycat.com/AmazingSpecificAndalusianhorse-size_restricted.gif');      
+            background-blend-mode: darken(70%);
+        }
+.navbar,.navbar1,.desc{
+  overflow: hidden;
+  font-family: Times New Roman;
+}
+button
+    {
+        color: white;
+        background-color: #00BFFF;
+        border-color: #00BFFF;
+        padding:0.9%;
+    }
+.cropped1
+    {
+        padding: 0%;
+        width: 5%;
+        height: 5%;
+        vertical-align: middle;
+        font-size: 150%;
+    }
+p{
+        color: white;
+        font-size: 100%;
+        padding: 2%
+    }
+h2,p
+    {
+        color: white;
+        padding-left: 2%;
+    }
+li
+    {
+        list-style-type: none;
+        padding: 5%;
+
+    }
+#first
+    {
+        text-decoration: none;
+        color: white;
+        background-color: #00BFFF;
+        padding:0.5%;
+        border-color: #00BFFF;
+    }
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+   padding: 14px 16px;
+  text-decoration: none;
+}
+img
+    {
+        padding-left: 4%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+.cropped1
+    {
+           padding-left: 2%;
+        vertical-align: middle;
+        font-size: 150%;
+    }
+.navbar{
+    background-image: url('https://image.freepik.com/free-photo/shades-blue-white-background_23-2147746645.jpg');
+    background-color: rgba(0,0,0, 0.3);
+    background-blend-mode: darken;
+
+        color: white;
+        font-size: 100%;
+    font-style: italic;
+    font-family:cursive;
+        padding-left: 2%;
+ 
+    }
+div.scrollmenu {
+    padding-top: 1%;
+
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: rgb(30,144,255);
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+    font-family: cursive,monospace;
+}
+
+div.scrollmenu a:hover {
+  background-color: rgb(135,206,235);
+}
+.scrollmenu {
+  background-color: #eee;
+  width: 100%;
+  height: 100%;
+  
+  overflow-y: scroll; /* Add the ability to scroll */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrollmenu::-webkit-scrollbar {
+    width: 2%;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrollmenu {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: 2%;  /* Firefox */
+}
+    
+.mySlides
+        {
+            display: none;
+        }
+.gify{
+  border-radius: 100px;
+}
+
+    </style>
+<script>
+var slideIndex = 0;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+    
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+<script>
+     function showhide1()
+     {
+           var li = document.getElementById("1");
+    if (li.style.display !== "block") {
+        li.style.display = "block";
+    }
+    else {
+        li.style.display = "none";
+    }
+     }
+    function showhide2()
+     {
+           var li = document.getElementById("2");
+    if (li.style.display !== "block") {
+        li.style.display = "block";
+    }
+    else {
+        li.style.display = "none";
+    }
+     }
+     function showhide3()
+     {
+           var li = document.getElementById("3");
+    if (li.style.display !== "block") {
+        li.style.display = "block";
+    }
+    else {
+        li.style.display = "none";
+    }
+     }
+     function showhide4()
+     {
+           var li = document.getElementById("4");
+    if (li.style.display !== "block") {
+        li.style.display = "block";
+    }
+    else {
+        li.style.display = "none";
+    }
+     }
+    function showhide5()
+     {
+           var li = document.getElementById("5");
+    if (li.style.display !== "block") {
+        li.style.display = "block";
+    }
+    else {
+        li.style.display = "none";
+    }
+     }
+    function showhide6()
+     {
+           var li = document.getElementById("6");
+    if (li.style.display !== "block") {
+        li.style.display = "block";
+    }
+    else {
+        li.style.display = "none";
+    }
+     }
+    function showhide7()
+     {
+           var li = document.getElementById("7");
+    if (li.style.display !== "block") {
+        li.style.display = "block";
+    }
+    else {
+        li.style.display = "none";
+    }
+     }
+    function showhide8()
+     {
+           var li = document.getElementById("8");
+    if (li.style.display !== "block") {
+        li.style.display = "block";
+    }
+    else {
+        li.style.display = "none";
+    }
+     }
+    function showhide9()
+     {
+           var li = document.getElementById("9");
+    if (li.style.display !== "block") {
+        li.style.display = "block";
+    }
+    else {
+        li.style.display = "none";
+    }
+     }
+    function showhide10()
+     {
+           var li = document.getElementById("10");
+    if (li.style.display !== "block") {
+        li.style.display = "block";
+    }
+    else {
+        li.style.display = "none";
+    }
+     }
+</script>
+
+<body>
+<div class='navbar' id='title'>
+    <div></div>
+    <div></div>
+    <p style="font-size: 140%"><img class="cropped1" src="https://drive.google.com/thumbnail?id=1JQ6epr36ugrVF7cuTlYMw9kL7J-pZrfd" width=5%; height="5%;">&nbsp HEALTH COMPANION</p></div>
+    <div class="scrollmenu">
+             <a href="index.html" >HOME</a>
+           
+            <a href='Consulting%20doctors.html' >CONSULTING</a>
+             <a href='https://aiforecasting.herokuapp.com/' >CHECK MY HEALTH</a>
+             <a href="AI%20predictions.html" >AI PREDICTIONS</a>
+             <a href="Hospital.html">HOSPITAL CONSULTING</a>      
+             
+                 <a href="HealthyTips.html">HEALTH TIPS</a>
+                 <a href="food1-1.html">FOOD INFO</a>
+                  <a href="Disease%20information.html">DISEASE INFO</a>
+             </div>
+  <br>
+  <br>
+  <br>
+ <div style="color: white; ">
+<div class="navbar1" style="align-self:  center; color: white; font-display:auto; font-size: 100%; background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20190221/ourmid/pngtree-blue-technology-geometric-polygon-image_28240.jpg');background-repeat: no-repeat;background-size: cover;background-color: rgba(0,0,0, 0.4);">
+    <div class="split left" style="float:left;width: 45%;">
+   <img class="gify" src="https://media4.giphy.com/media/U1mESeTwjutYCcnNsi/giphy.gif?cid=6c09b9522p5g61kml482vikx4vzcfcgw916jscorlcwl27ix&rid=giphy.gif&ct=s"width="400" height="350">
+
+
+</div>
+<div class="split right" style="float:right;width: 55%;">
+     <br>
+    <p style="padding-left: 1%;font-size: 200%; ">ONCOLOGIST</p>
+        <p style="padding-left: 1%; font-size: 150%;">On an average, more than 1,300 Indians succumb to cancer every day as new cancer cases or its
+incidences in India, are estimated to grow by 25% by 2020. Cancer is rapidly turning into an epidemic in India, with about two million registered patients, the country is facing an acute shortage of oncologists, surgical oncologists, and radio-therapists. Official data show there are only about 1,000 trained oncologists in the country and the ratio
+of oncologists to cancer patients is about 1:2,000. Most oncology centers are located in western and southern parts of India. An oncologist is a doctor who specializes in treating people with cancer. The oncologist you choose will influence your treatment and care. So, it is important that you feel comfortable with this person’s expertise and approach.</p>
+</div>
+</div>    
+<br>
+    <div id='list' style="background-image: url(https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?size=626&ext=jpg);font-size: 150%; padding-left:5%;background-repeat: no-repeat;background-size: cover;background-color: rgba(0,0,0, 0.4); text-align:  center;">
+        <h2>Dr. Raja M A</h2><img src="https://imagesx.practo.com/providers/27ef4bfb-aff9-4f52-bdbe-9753f574d37c.jpg?i_type=t_100x100"width="150" height="150"><p>MBBS, MD - General Medicine, MRCP (UK), PhD - Medical Oncology<br>General Physician, Medical Oncologist
+<br>40 Years Experience Overall  (29 years as specialist)</p>
+        <li id='1' style="display: none;">
+        <p>Dr. Raja M A is one of the top Oncologists in Chennai and has an experience of 36 years in this field. He has completed his MBBS, MD Gen Medicine, MRCP (UK), Ph.D. – Medical Oncology. Dr. Raja M A practices at Apollo Speciality Cancer Hospital in Teynampe. Some of the services provided by the doctor are PICC Line Insertion, Cancer Treatment, Constipation Treatment, Filaria Treatment and Breast Cancer Treatment etc.</p>
+        <p>Address:<br>New Number-6, Old Number-24, Cenotaph Road, Landmark: Near Hotel Rain Tree, Chennai<br></p>
+        <p>FEE:Rs.800</p>
+        <p>Timings: Mon - Sat 09:00 AM - 02:00 PM </p></li>
+        &nbsp&nbsp&nbsp&nbsp<button id="button" onclick="showhide1()"style="opacity: 80%;">KNOW MORE</button>&nbsp&nbsp&nbsp<a id='first'href="https://docs.google.com/presentation/d/1b0e0Tc2lUKTS8C70k3VrvPQAYIGwC-OG/edit#slide=id.p2"style="font-size: 50%;padding: 1.15%;opacity: 80%;">BOOK APPOINTMENT</a>
+        
+        <br>
+        <h2>Dr. Mahadev P</h2><img src="https://imagesx.practo.com/providers/92496c66-72a5-4ef1-9511-229d31b46948.jpg?i_type=t_100x100"width="150" height="150"><p>MBBS, MD - Radiotherapy<br>Radiation Oncologist, General Physician
+<br>32 Years Experience Overall  (24 years as specialist)</p>
+        <li id='2' style="display: none;">
+        <p> Dr. Mahadev P Is among the best oncologists in Chennai with experience of over 22 years in fiel of radiation oncology. He completed MBBS from Ranchi University in 1989, DMRT from Tamil Nadu Dr M G R Medical University in 1992 and DNB – Radiotherapy from National Board of Examinations in 1996. </p>
+        <p>Address:<br>New Number-6, Old Number-24, Cenotaph Road, Landmark: Near Hotel Rain Tree, Chennai</p>
+        <p>FEE:Rs.800</p>
+        <p>Timings:MON-SAT 09:00 AM - 06:00PM</p></li>
+        &nbsp&nbsp&nbsp&nbsp<button id="button" onclick="showhide2()"style="opacity: 80%;">KNOW MORE</button>&nbsp&nbsp&nbsp<a id='first'href="https://www.practo.com/chennai/doctor/mahadev-1-oncologist"style="font-size: 50%;padding: 1.15%;opacity: 80%;">BOOK APPOINTMENT</a>
+         
+        <br>
+        <h2>Dr. S.G.D. Gangadharan</h2><img src="https://imagesx.practo.com/providers/93f5a799-1699-4b4d-9b38-46595cff0c24.jpg?i_type=t_100x100"width="150" height="150"><p>MBBS, DM - Oncology<br>Medical Oncologist
+<br>36 Years Experience Overall  (21 years as specialist)</p>
+        <li id='3' style="display: none;">
+        <p>Dr. S.G.D. Gangadharan is one of the famous Medical Oncologist in Chennai and has an experience of
+32 years in this field. He has completed his MBBS, MD – Oncology and DM – Oncology. Dr. S.G.D. Gangadharan practices at Selvarangam Hospital – Institute Of Liver and Digestive Diseases in Anna Nagar East. Some of the services provided by him are Breast Cancer Treatment, Blood Tumour, PICC Line Insertion, Stem Cell Transplantation and Osteosarcoma Treatment etc.<br>He is a member of ASCO and ESMO. Some of the services provided by the doctor are: PICC Line Insertion,Chemotherapy of Haematological Malignancies,Head and Neck Tumor / Cancer Surgery,Giant Cell tumour Treatment and Blood Tumour etc. </p>
+        <p>Address:<br>C-54, 1st Main Road, Landmark: Near Naidu Hall, Chennai</p>
+        <p>FEE:Rs.1500</p>
+        <p>Timings: Mon-FRI 08.00 AM-09.00 PM ,SAT 08:00 AM - 07:00 PM</p></li>
+        &nbsp&nbsp&nbsp&nbsp<button id="button" onclick="showhide3()"style="opacity: 80%;">KNOW MORE</button>&nbsp&nbsp&nbsp<a id='first'href="https://www.practo.com/chennai/doctor/dr-sgd-gandadhar-oncologist"style="font-size: 50%;padding: 1.15%;opacity: 80%;">BOOK APPOINTMENT</a>
+       <br>
+       <h2>Dr. J Surendran</h2><img src="https://imagesx.practo.com/providers/ad98568e-18ba-4b12-a183-e01a51941ecc.jpg?i_type=t_100x100"width="150" height="150"><p>MBBS, MD - Radiotherapy<br>Radiation Oncologist
+<br>33 Years Experience Overall  (23 years as specialist)</p>
+        <li id='4' style="display: none;">
+        <p>Dr. J Surendran is a popular Radiation Oncologist in Chennai and has an experience of over 29 years in
+this field. He has completed his MBBS and MD – Radiotherapy. Dr. J Surendran practices at Dr. Kamakshi Memorial Hospital in Pallikaranai. Some of the services provided by him are Proton Therapy, Brachytherapy (Internal Radiation
+Therapy), Cytology Guided by Ultrasound, External Beam Radiation For Prostate Cancer and Cancer.<br>He is a member of Association of Radiation Oncologists of India (AROI). Some of the services provided by the doctor are: External Beam Radiation For Prostate Cancer,Cytology Guided by Ultrasound,Proton Therapy,Brachytherapy (Internal Radiation Therapy) and Cancer Screening (Preventive) etc </p>
+        <p>Address:<br>1, Radial Road, Landmark: Opposite Cognizant Company, Chennai</p>
+        <p>FEE:Rs.500</p>
+        <p>Timings: Mon - Sat 10:00 AM - 02:00 PM </p></li>
+        &nbsp&nbsp&nbsp&nbsp<button id="button" onclick="showhide4()"style="opacity: 80%;">KNOW MORE</button>&nbsp&nbsp&nbsp<a id='first'href="https://www.practo.com/chennai/doctor/dr-j-surendran-1-oncologist"style="font-size: 50%;padding: 1.15%;opacity: 80%;">BOOK APPOINTMENT</a>
+        <br>
+        <h2>Dr. Kishore Kumar S.</h2><img src="https://imagesx.practo.com/providers/60d80a89-a9e2-4af2-91c6-bb269d6a7b0d.jpg?i_type=t_100x100"width="150" height="150"><p>MBBS, DM - Clinical Haematology, MD - Pathology<br>Hematologic Oncologist
+<br>14 Years Experience Overall  (7 years as specialist)</p>
+        <li id='5' style="display: none;">
+         <p>Dr. Kishore Kumar S. is a Medical Hematology - Oncologist and Hematologic Oncologist in Manapakkam, Chennai and has an experience of 14 years in these fields. Dr. Kishore Kumar S. practices at MIOT International Hospital in Manapakkam, Chennai. He completed MBBS from Madurai Medical College Hospital, Madurai in 2007,DM - Clinical Haematology from Institute of Haematology and Transfusion Medicine (IHTM), Kolkata. in 2014 and MD - Pathology from PGIMER, Chandigarh, India in 2010.<br>He is a member of Indian Society Haematology,American society of Haematology,European Haematology Association and Founder- Secretary- Tamil Nadu Haemato-Oncology Team</p><p>Address:<br>4/112, Mount Poonamallee Road, Manapakkam, Landmark: Near Chennai Trade Center, Chennai</p>
+        <p>FEE:Rs.800</p>
+        <p>Timings: Mon - Sat 08:00 AM - 05:00 PM </p></li>
+        &nbsp&nbsp&nbsp&nbsp<button id="button" onclick="showhide5()"style="opacity: 80%;">KNOW MORE</button>&nbsp&nbsp&nbsp<a id='first'href="https://www.practo.com/chennai/doctor/dr-kishore-kumar-s-1-oncologist?practice_id=1011230&specialization=oncologist"style="font-size: 50%;padding: 1.15%;opacity: 80%;">BOOK APPOINTMENT</a>
+            
+        <br>
+        <h2>Dr. V. Srinivasan</h2><img src="https://imagesx.practo.com/providers/9567d6c2-9f5d-41a7-8b32-bf5961c27b3a.jpg?i_type=t_100x100"width="150" height="150"><p>MBBS, MD - Radiotherapy<br>Radiation Oncologist
+<br>26 Years Experience Overall  (22 years as specialist)</p>
+        <li id='6' style="display: none;">
+        <p>Dr. Venkatesan Srinivasan is a renowned Clinical Oncologist, Radiation Oncologist based in Chennai having more than a decade of experience in treating cancer through modern Radiation Therapy, Chemotherapy, Combination Chemotherapy and Palliative Therapy.
+
+He is well-known in scientific groups and has held many executive posts in oncology associations at Local, State and National levels. Dr. V. Srinivasan was a former President of Indian Medical Association - Chennai NAAM Branch, as well.<br>As a result of Dr. V. Srinivasan experience and expertise, many complex and complicated cases are referred to him for treatment of cancer where doctor provides good pain relief measures to improve the Quality of Life of his cancer patients. </p>
+        <p>Address:<br>4/112, Mount Poonamallee Road, Manapakkam, Landmark: Near Chennai Trade Center, Chennai</p>
+        <p>FEE:Rs.800</p>
+        <p>Timings: Mon - Sat 10:00 AM - 05:00 PM</p></li>
+        &nbsp&nbsp&nbsp&nbsp<button id="button" onclick="showhide6()"style="opacity: 80%;">KNOW MORE</button>&nbsp&nbsp&nbsp<a id='first'href="https://www.practo.com/chennai/doctor/dr-v-srinivasan-radiologist-1?practice_id=1011230&specialization=oncologist"style="font-size: 50%;padding: 1.15%;opacity: 80%;">BOOK APPOINTMENT</a>
+        
+        <br>
+        <h2>Dr. Sumana</h2><img src="https://imagesx.practo.com/providers/d04fd726-85bb-4cde-a389-b432de3969f8.jpg?i_type=t_100x100"width="150" height="150"><p>MBBS, MD - Radiotherapy<br>Radiation Oncologist
+<br>32 Years Experience Overall  (18 years as specialist)</p>
+        <li id='7' style="display: none;">
+        <p>Having trained in Cancer Institute and worked and taught in some of the leading institutions imparting radiation oncology in Chennai, Dr Sumana is an expert in external beam radiation and brachytherapy. She has worked in government and private hospitals and taught post graduate students.</p>
+        <p>Address:<br>1, Jawaharlal Nehru Road, 100 Feet Road, Landmark: Next to Vadapalani Metro Station, Chennai</p>
+        <p>FEE:Rs.800</p>
+        <p>Timings:MON-SAT 11:30 AM - 02:30 PM</p></li>
+        &nbsp&nbsp&nbsp&nbsp<button id="button" onclick="showhide7()"style="opacity: 80%;">KNOW MORE</button>&nbsp&nbsp&nbsp<a id='first'href="https://www.practo.com/chennai/doctor/sumana-premkumar-surgical-oncologist?practice_id=1192041&specialization=oncologist"style="font-size: 50%;padding: 1.15%;opacity: 80%;">BOOK APPOINTMENT</a>
+     
+        <br>
+        <h2>Dr. Prahlad H Yathiraj</h2><img src="https://imagesx.practo.com/providers/130cf201-729c-4b00-8af0-de4c52f8bc5b.jpg?i_type=t_100x100"width="150" height="150"><p>MBBS, MD - Radiotherapy<br>Radiation Oncologist
+<br>13 Years Experience Overall  (8 years as specialist)</p>
+        <li id='8' style="display: none;">
+        <p>Dr. Prahlad H Yathiraj is a Radiation Oncologist in Chromepet, Chennai and has an experience of 13 years in this field. Dr. Prahlad H Yathiraj practices at Dr. Rela Institute & Medical Centre in Chromepet, Chennai. He completed MBBS from J.S.S Medical College, Mysore in 2008 and MD - Radiotherapy from Madras Medical College, Chennai in 2012.<br>He is a member of Indian Medical Association (IMA),Association of Radiation Oncologists of India (AROI),European Society for Radiotherapy and Oncology,Indian Musculoskeletal Oncology Society,Indian Brachytherapy Society and American Society for Radiation Oncology. Some of the services provided by the doctor are: Proton Therapy,Image Guided Radio Therapy (IGRT),Treatment of Central Nervous System Tumors,Brachytherapy (Internal Radiation Therapy) and Intensity Modulated Radio Therapy (IMRT) etc </p>
+        <p>Address:<br>NO.7 CLC WORK ROAD, CHROMPET, CHENNAI, TAMIL NADU, INDIA, Chennai</p>
+        <p>FEE:Rs.800</p>
+        <p>Timings:Mon - Sat 10:00 PM - 02:30 PM</p></li>
+        &nbsp&nbsp&nbsp&nbsp<button id="button" onclick="showhide8()"style="opacity: 80%;">KNOW MORE</button>&nbsp&nbsp&nbsp<a id='first'href="https://www.practo.com/chennai/doctor/prahlad-h-yathiraj-oncologist?practice_id=1224581&specialization=oncologist"style="font-size: 50%;padding: 1.15%;opacity: 80%;">BOOK APPOINTMENT</a>
+      
+        <br>
+        <h2>
+Dr. M.P. Ram Prabu</h2><img src="https://imagesx.practo.com/providers/1d0f01c4-5e3b-41ff-b148-00fe7f44cc01.jpg?i_type=t_100x100"width="150" height="150"><p>MBBS, MD - General Medicine, DM - Medical Oncology<br>Medical Oncologist
+<br>19 Years Experience Overall  (10 years as specialist)</p>
+        <li id='9' style="display: none;">
+        <p>r. M.P. Ram Prabu is a Medical Oncologist in Perumbakkam, Chennai and has an experience of 20 years in this field. Dr. M.P. Ram Prabu practices at Gleneagles Global Health City in Perumbakkam, Chennai. He completed MBBS from Madras Medical College, Chennai in 2000,MD - General Medicine from JIPMER, Pondicherry in 2006 and DM - Oncology from Aiims in 2011.
+<br>
+He is a member of Indian Medical Association - Life Member </p>
+        <p>Address:<br>439, Cheran Nagar, Sholinganallur, Medavakkam, Landmark: Near HCL, Chennai</p>
+        <p>FEE:Rs.800</p>
+        <p>Timings:Mon - Sat 09:00 AM - 03:00 PM(oncall)</p></li>
+        &nbsp&nbsp&nbsp&nbsp<button id="button" onclick="showhide9()"style="opacity: 80%;">KNOW MORE</button>&nbsp&nbsp&nbsp<a id='first'href="https://www.practo.com/chennai/doctor/dr-m-p-ram-prabu-oncologist?practice_id=1153960&specialization=oncologist"style="font-size: 50%;padding: 1.15%;opacity: 80%;">BOOK APPOINTMENT</a>
+    
+        <br>
+        <h2>
+Dr. Prasad E</h2><img src="https://imagesx.practo.com/providers/2842abba-a5aa-4df2-a79d-4796f9c4dddd.jpg?i_type=t_100x100"width="150" height="150"><p>MBBS, Diploma in Medical Radiology, DM - Oncology, MD - Radiotherapy<br>Medical Oncologist
+<br>17 Years Experience Overall  (6 years as specialist)</p>
+        <li id='9' style="display: none;">
+        <p>Dr. Prasad E is a Medical Oncologist in Manapakkam, Chennai and has an experience of 17 years in this field. Dr. Prasad E practices at MIOT International Hospital in Manapakkam, Chennai. He completed MBBS from Stanley Medical College & Hospital , Chennai in 2004,Diploma in Medical Radiology from Madras Medical College, Chennai in 2006 and DM - Oncology from Madras Medical College, Chennai in 2014.<br>He is a member of American Society for Therapeutic Oncology (ASTRO),European Society of Medical Oncology (ESMO),Americal Society Of Clinical Oncology,Indian Society of Medical and Paediatric Oncology (ISMPO),Tamilnadu Assocaition Of Medical And Pediatric Oncology and Association of Radiation Oncologists of India (AROI). Some of the services provided by the doctor are: Lung Cancer Treatment,Head and Neck Tumor / Cancer Surgery,Chemotherapy of Haematological Malignancies,PICC Line Insertion and Cancer Screening (Preventive) etc. </p>
+        <p>Address:<br>4/112, Mount Poonamallee Road, Manapakkam, Landmark: Near Chennai Trade Center, Chennai</p>
+        <p>FEE:Rs.800</p>
+        <p>Timings:Mon - Sat 08:00 AM - 05:00 PM</p></li>
+        &nbsp&nbsp&nbsp&nbsp<button id="button" onclick="showhide9()"style="opacity: 80%;">KNOW MORE</button>&nbsp&nbsp&nbsp<a id='first'href="https://www.practo.com/chennai/doctor/prasad-e-oncologist?practice_id=1011230&specialization=oncologist"style="font-size: 50%;padding: 1.15%;opacity: 80%;">BOOK APPOINTMENT</a>
+    
+    <br><br></div><br><br>
+      <div id='add' style=" background-image: url(https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?size=626&ext=jpg);background-repeat: no-repeat;background-size: cover;background-color: rgba(0,0,0, 0.4);text-align: center; ">
+        <br>
+        <br>
+        <br>
+        <a href="" style="text-decoration: none;color:white; font-size: 150%;">Click Here to ADD a oncologist you know as the BEST!!</a>
+        <br>
+        <br>
+        <br>
+        </div>
+    </div>
+    <br><br>
+    <div style="background-image: url('https://image.freepik.com/free-photo/shades-blue-white-background_23-2147746645.jpg');background-color: rgba(0,0,0, 0.6);background-blend-mode: darken;color: white;font-size: 100%;font-style: italic;font-family:cursive;"><br>
+        <p style="padding-left: 5%;">Contact<br>Mobile:1234567891<br>Email:abcd123@gmail.com</p>
+        <p style="padding-left: 5%; ;">Follow us on<img src="https://www.beachrealtync.com/sites/default/files/uploads/socials_3.png" width=10% style="padding-left: 2%;
+        vertical-align: middle" ></p><br>
+    </div>
+    
+</body>
+</html>

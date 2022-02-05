@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+  <title>Pediatrician</title>
+ <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}"> 
+</head>
+    <style>
+    body::-webkit-scrollbar
+    {
+        display:none;
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;
+        
+    }
+        body
+        {
+             background-image: url('https://thumbs.gfycat.com/AmazingSpecificAndalusianhorse-size_restricted.gif');      
+            background-blend-mode: darken(70%);
+        }
+.navbar,.navbar1,.desc{
+  overflow: hidden;
+  font-family: Times New Roman;
+}
+button
+    {
+        color: white;
+        background-color: #00BFFF;
+        border-color: #00BFFF;
+        padding:0.9%;
+    }
+.cropped1
+    {
+        padding: 0%;
+        width: 5%;
+        height: 5%;
+        vertical-align: middle;
+        font-size: 150%;
+    }
+p{
+        color: white;
+        font-size: 100%;
+        padding: 2%
+    }
+h2,p
+    {
+        color: white;
+        padding-left: 2%;
+    }
+li
+    {
+        list-style-type: none;
+        padding: 5%;
+
+    }
+#first
+    {
+        text-decoration: none;
+        color: white;
+        background-color: #00BFFF;
+        padding:0.5%;
+        border-color: #00BFFF;
+    }
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+   padding: 14px 16px;
+  text-decoration: none;
+}
+img
+    {
+        padding-left: 4%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+.cropped1
+    {
+           padding-left: 2%;
+        vertical-align: middle;
+        font-size: 150%;
+    }
+.navbar{
+    background-image: url('https://image.freepik.com/free-photo/shades-blue-white-background_23-2147746645.jpg');
+    background-color: rgba(0,0,0, 0.3);
+    background-blend-mode: darken;
+
+        color: white;
+        font-size: 100%;
+    font-style: italic;
+    font-family:cursive;
+        padding-left: 2%;
+ 
+    }
+div.scrollmenu {
+    padding-top: 1%;
+
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: rgb(30,144,255);
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+    font-family: cursive,monospace;
+}
+
+div.scrollmenu a:hover {
+  background-color: rgb(135,206,235);
+}
+.scrollmenu {
+  background-color: #eee;
+  width: 100%;
+  height: 100%;
+  
+  overflow-y: scroll; /* Add the ability to scroll */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrollmenu::-webkit-scrollbar {
+    width: 2%;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrollmenu {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: 2%;  /* Firefox */
+}
+    
+.mySlides
+        {
+            display: none;
+        }
+.gify{
+  border-radius: 100px;
+}
+
+    </style>
+<script>
+var slideIndex = 0;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+    
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+<script>
+     function showhide1()
+     {
+           var li = document.getElementById("1");
+    if (li.style.display !== "block") {
+        li.style.display = "block";
+    }
+    else {
+        li.style.display = "none";
+    }
+     }
+    function showhide2()
+     {
+           var li = document.getElementById("2");
+    if (li.style.display !== "block") {
+        li.style.display = "block";
+    }
+    else {
+        li.style.display = "none";
+    }
+     }
+     function showhide3()
+     {
+           var li = document.getElementById("3");
+    if (li.style.display !== "block") {
+        li.style.display = "block";
+    }
+    else {
+        li.style.display = "none";
+    }
+     }
+     function showhide4()
+     {
+           var li = document.getElementById("4");
+    if (li.style.display !== "block") {
+        li.style.display = "block";
+    }
+    else {
+        li.style.display = "none";
+    }
+     }
+    function showhide5()
+     {
+           var li = document.getElementById("5");
+    if (li.style.display !== "block") {
+        li.style.display = "block";
+    }
+    else {
+        li.style.display = "none";
+    }
+     }
+    function showhide6()
+     {
+           var li = document.getElementById("6");
+    if (li.style.display !== "block") {
+        li.style.display = "block";
+    }
+    else {
+        li.style.display = "none";
+    }
+     }
+    function showhide7()
+     {
+           var li = document.getElementById("7");
+    if (li.style.display !== "block") {
+        li.style.display = "block";
+    }
+    else {
+        li.style.display = "none";
+    }
+     }
+    function showhide8()
+     {
+           var li = document.getElementById("8");
+    if (li.style.display !== "block") {
+        li.style.display = "block";
+    }
+    else {
+        li.style.display = "none";
+    }
+     }
+    function showhide9()
+     {
+           var li = document.getElementById("9");
+    if (li.style.display !== "block") {
+        li.style.display = "block";
+    }
+    else {
+        li.style.display = "none";
+    }
+     }
+    function showhide10()
+     {
+           var li = document.getElementById("10");
+    if (li.style.display !== "block") {
+        li.style.display = "block";
+    }
+    else {
+        li.style.display = "none";
+    }
+     }
+</script>
+
+<body>
+<div class='navbar' id='title'>
+    <div></div>
+    <div></div>
+    <p style="font-size: 140%"><img class="cropped1" src="https://drive.google.com/thumbnail?id=1JQ6epr36ugrVF7cuTlYMw9kL7J-pZrfd" width=5%; height="5%;">&nbsp HEALTH COMPANION</p></div>
+    <div class="scrollmenu">
+             <a href="index.html" >HOME</a>
+           
+            <a href='Consulting%20doctors.html' >CONSULTING</a>
+             <a href='https://aiforecasting.herokuapp.com/' >CHECK MY HEALTH</a>
+             <a href="AI%20predictions.html" >AI PREDICTIONS</a>
+             <a href="Hospital.html">HOSPITAL CONSULTING</a>      
+             
+                 <a href="HealthyTips.html">HEALTH TIPS</a>
+                 <a href="food1-1.html">FOOD INFO</a>
+                  <a href="Disease%20information.html">DISEASE INFO</a>
+             </div>
+  <br>
+  <br>
+  <br>
+ <div style="color: white; ">
+<div class="navbar1" style="align-self:  center; color: white; font-display:auto; font-size: 100%; background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20190221/ourmid/pngtree-blue-technology-geometric-polygon-image_28240.jpg');background-repeat: no-repeat;background-size: cover;background-color: rgba(0,0,0, 0.4);">
+    <div class="split left" style="float:left;width: 45%;">
+   <img class="gify" src="https://media4.giphy.com/media/U1mESeTwjutYCcnNsi/giphy.gif?cid=6c09b9522p5g61kml482vikx4vzcfcgw916jscorlcwl27ix&rid=giphy.gif&ct=s"width="400" height="350">
+
+
+</div>
+<div class="split right" style="float:right;width: 55%;">
+     <br>
+    <p style="padding-left: 1%;font-size: 200%; ">PEDIATRICIAN</p>
+        <p style="padding-left: 1%; font-size: 150%;">Pediatrics is the branch of Medical Courses that deals with the health care of babies, children, adolescents, and young adults from birth to age 21 years.A medical practitioner who specializes in this area is known as a Pediatrician.The word pediatrics comes from the Greek that means “healer of children”.They also treat an organic disease & various other ailments such as jaundice, tuberculosis, typhoid & growth related disorders.
+
+Pediatric doctor (Pediatricians) guides & counsels the children and their parents or guardians regarding hygiene, diet and disease prevention. </p><br><br><br><br>
+</div>
+</div>    
+<br>
+    <div id='list' style="background-image: url(https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?size=626&ext=jpg);font-size: 150%; padding-left:5%;background-repeat: no-repeat;background-size: cover;background-color: rgba(0,0,0, 0.4); text-align:  center;"><br><br>
+     
+        <h2>DR. V.V Varadharanjan</h2><img src="https://content3.jdmagicbox.com/comp/chennai/43/044p7022243/catalogue/dr-varadharajan-v-v-lalitha-child-care-centre-ashok-nagar-chennai-paediatricians-ijye1a2e1o-250.jpg"width="150" height="150"><p>MBBS, DCH & MD (PED) from Madras Medical College, Chennai. <br>44 years of Experience</p>
+        <li id='1' style="display: none;">
+        <p>Dr Varadarajan is one of the best child specialist in Chennai and has a rich experience in this field. He has completed his MBBS, DCH & MD (PED) from Madras Medical College, Chennai. He was teaching Pediatrics courses to under graduate and post graduate students in Government Hospital. He also been teacher for DIP NB Post graduate in Kachi Kamakoti Childs Trust Hospital, Chennai. </p>
+        <p>Address:<br>Sooriya Hospital, 1, Arunachalam Rd, Velayutham Colony, Saligramam, Chennai, Tamil Nadu 600026</p>
+        <p>FEE:Rs.250/Rs.600(online consulting)</p>
+        <p>Timings: He is currently HOD pediatrics at Sooriya Hospital, Saligramam. He also consults at Lalitha Child Care Centre and Mehta Hospital. You can consult him at Sooriya Hospital, Saligramam, Monday, Wedesdays and Friday. </p>
+        <p>Phone No:044 2376 1751</p></li>
+        &nbsp&nbsp&nbsp&nbsp<button id="button" onclick="showhide1()"style="opacity: 80%;">KNOW MORE</button>&nbsp&nbsp&nbsp<a id='first'href="https://www.credihealth.com/doctor/v-v-varadharajan-pediatrician/appointment?hcc_loc_id=61447"style="font-size: 50%;padding: 1.15%;opacity: 80%;">BOOK APPOINTMENT</a>
+        
+        <br>
+        <h2>Dr.R. Dhanasekhar Kesavalu</h2><img src="https://imagesx.practo.com/providers/c7e88e03-86d5-4506-8401-a2cee6b728ac.jpg?i_type=t_100x100"width="150" height="150"><p>MBBS, Member of the Royal College of Paediatrics and Child Health (MRCPCH, London, Glasgow or Edinburgh)<br>Pediatrician 21 Years Experience Overall  (15 years as specialist)</p>
+        <li id='2' style="display: none;">
+        <p>Dr. Dhanasekhar Kesavelu is a Pediatrician in Mogappair West, Chennai and has an experience of 21 years in this field. Dr. Dhanasekhar Kesavelu practices at SS Child Care in Mogappair West, Chennai and Apollo Children's Hospitals in Thousand Lights, Chennai. He completed MBBS from government mohan kumaramangalam medical college,salem in 2000 and Member of the Royal College of Paediatrics and Child Health (MRCPCH, London, Glasgow or Edinburgh) from Royal College of England, UK in 2006.
+        He is a member of Tamilnadu Medical Council,General Medical Council (GMC), UK,Royal College of Physicians (UK),Royal college of peadiatrics and child health-RCPCH,Indian Medical Association (IMA),Britsih society of paediatric gastroenterology hepatolology and nutrition,British association of physicians of India origin-BAPIO,Indian society of paediatric gastroenetrology hepatology and nutrition and Indian Academy of Paediatrics (IAP). Some of the services provided by the doctor are: Vaccination/ Immunization,Lower/Upper Respiratory Tract Infection Treatment,Vomit blood,Chronic Liver Disease and Colonoscopy etc.  </p>
+        <p>Address:<br>Apollo Children's Hospital Number-15, Shafee Mohammed Road, Landmark: Near Apollo Heart Centre, Chennai<br>SS child care clinic, #39, Spartan Avenue, Mogappair West, Landmark: Near To Spartan School, Chennai</p>
+        <p>FEE:Rs.1000</p>
+        <p>Timings: Mon-Sat 9:30 AM - 10:30 AM (Apollo Children's Hospital)</p></li>
+        &nbsp&nbsp&nbsp&nbsp<button id="button" onclick="showhide2()"style="opacity: 80%;">KNOW MORE</button>&nbsp&nbsp&nbsp<a id='first'href="https://www.practo.com/chennai/doctor/dr-dhanasekhar-pediatrician"style="font-size: 50%;padding: 1.15%;opacity: 80%;">BOOK APPOINTMENT</a>
+         
+        <br>
+        <h2>Dr. Benny Benjamin</h2><img src="https://imagesx.practo.com/providers/d0142239-de08-4b6c-af79-07b852c16c64.jpg?i_type=t_100x100"width="150" height="150"><p>MBBS, Diploma in Child Health (DCH), MD - Pediatrics<br>Pediatrician<br>48 Years Experience Overall  (44 years as specialist)</p>
+        <li id='3' style="display: none;">
+        <p>Dr. B Benjamin is a Pediatrician in Alwarpet, Chennai and has an experience of 48 years in this field. Dr. B Benjamin practices at Sishu Clinic in Alwarpet, Chennai and Fortis Malar Hospital in Adyar, Chennai. He completed MBBS from Madras University, Chenai, India in 1973,Diploma in Child Health (DCH) from Madras University, Chenai, India in 1977 and MD - Pediatrics from Christian Medical College, Vellore in 1978.
+        He is a member of Indian Academy of Paediatrics (IAP),National Neonatology Forum, India and Indian Society of Critical Care Medicine (ISCCM). Some of the services provided by the doctor are: Growth & Development Evaluation / Management,Health Checkup (Pediatric),Disorders of Puberty,Bronchial Asthma Treatment and Paediatrics - Chest etc. </p>
+        <p>Address:<br>Fortis Malar Hospital, 52, 1st Main Road, Gandhinagar, Landmark : Near Adyar Signal, Chennai</p>
+        <p>FEE:Rs.1000</p>
+            <p>Timings: Mon - Tue, Thu - Sat 09:00 AM - 11:00 AM 07:00 PM - 08:00 PM Wed 09:00 AM - 11:00 AM</p><p>Phone: 044 4289 2222</p></li>
+        &nbsp&nbsp&nbsp&nbsp<button id="button" onclick="showhide3()"style="opacity: 80%;">KNOW MORE</button>&nbsp&nbsp&nbsp<a id='first'href="https://www.practo.com/chennai/doctor/dr-benjamin-pediatrician"style="font-size: 50%;padding: 1.15%;opacity: 80%;">BOOK APPOINTMENT</a>
+       <br>
+       <h2>Dr. G. Prabhakaran</h2><img src="https://imagesx.practo.com/providers/b90e71ff-294b-4d30-97ce-93ae4e822456.jpg?i_type=t_100x100"width="150" height="150"><p>MMBBS, MD - Pediatrics<br>Pediatrician<br>48 Years Experience Overall  (42 years as specialist)</p>
+        <li id='4' style="display: none;">
+        <p>Dr. G. Prabhakaran is an eminent Pediatrician with over experience of 34 years in the field of Pediatrics and Neonatology. </p>
+        <p>Address:<br>Fortis Malar Hospital 52, 1st Main Road, Gandhinagar, Landmark: Near Adyar Signal, Chennai</p>
+        <p>FEE:Rs.500</p>
+        <p>Timings: Mon - Tue, Thu - Sat 09:00 AM - 1:00 PM 06:00 PM - 07:00 PM Wed 09:00 AM - 1:00 PM</p><p>Phone: 044 4289 2222</p></li>
+        &nbsp&nbsp&nbsp&nbsp<button id="button" onclick="showhide4()"style="opacity: 80%;">KNOW MORE</button>&nbsp&nbsp&nbsp<a id='first'href="https://www.practo.com/chennai/doctor/dr-g-prabhakaran-ear-nose-throat-ent-specialist"style="font-size: 50%;padding: 1.15%;opacity: 80%;">BOOK APPOINTMENT</a>
+        <br>
+        <h2>Dr. Radha Rajagopalan</h2><img src="https://imagesx.practo.com/providers/88e3fe94-a25c-49db-97d1-dfa19a5be94a.jpg?i_type=t_100x100"width="150" height="150"><p>MBBS AB (Pediatrics)<br>pediatrics<br>35 Years of experience</p>
+        <li id='5' style="display: none;">
+         <p>Dr. Radha Rajagopalan is a Doctor in Thousand Lights, Chennai and has an experience of 55 years in this field. Dr. Radha Rajagopalan practices at Apollo Children's Hospitals in Thousand Lights, Chennai. She completed MBBS from Lady hardinage medical college, Delhi University in 1966.
+        She is a member of Tamilnadu Medical Council,Indian Medical Association (IMA),INDIAN ACADEMY OF PEDIATRICS and Madras Management Association. Some of the services provided by the doctor are: Childhood Infections,Limping child,Vaccination/ Immunization,Growth & Development Evaluation / Management and Viral Fever Treatment etc.</p>
+        <p>Address:<br>Apollo Children Hospital Chennai Apollo Children’s Hospitals 15, Shafi Mohammed Road Thousand Lights Chennai 600 006 PH:044-2829 6262</p>
+        <p>FEE:Rs.600</p>
+            <p>Timings: SUN, TUE, THU, SAT ( 09:00 AM-11:00 AM )</p><p>Phone: 044 2829 8282</p></li>
+        &nbsp&nbsp&nbsp&nbsp<button id="button" onclick="showhide5()"style="opacity: 80%;">KNOW MORE</button>&nbsp&nbsp&nbsp<a id='first'href="https://www.askapollo.com/doctors/pediatrician/chennai/dr-radha-rajagopalan"style="font-size: 50%;padding: 1.15%;opacity: 80%;">BOOK APPOINTMENT</a>
+            
+        <br>
+        <h2>Dr. Priya Chandrasekar</h2><img src="https://imagesx.practo.com/providers/a5f9f30b-0074-4591-a8c2-7e02f61ec140.jpg?i_type=t_100x100"width="150" height="150"><p>MBBS, DNB - Paediatrics<br>Pediatrician<br>27 Years Experience Overall  (20 years as specialist)</p>
+        <li id='6' style="display: none;">
+        <p>Dr. Priya Chandrasekar is a Pediatrician in Alwarpet, Chennai and has an experience of 27 years in this field. Dr. Priya Chandrasekar practices at Apollo Spectra Hospital in Alwarpet, Chennai,Apollo Medical Centre in Kotturpuram, Chennai and Indira Child Care in Mandaveli, Chennai. She completed MBBS from The Tamil Nadu Dr. M.G.R. Medical University (TNMGRMU) in 1993 and DNB - Paediatrics from National Board Of Examination in 2001.
+        She is a member of Tamilnadu Medical Council. Some of the services provided by the doctor are: Adolescent Medicine,Allergy Testing,Newborn Jaundice,Genetic Diseases and Childhood Infections etc.</p>
+        <p>Address:<br>Apollo Spectra Hospital, #12, C P Ramaswamy Road, Landmark : Near to Fly Over, Chennai<br> Apollo Medical Centre 15/42, Gandhi Mandapam Road, Landmark: Near Anna Centinary Library and Opposite AMM School, Chennai</p>
+        <p>FEE:Rs.600</p>
+            <p>Timings: Mon - Wed, Fri - Sat 04:30 PM - 05:30 PM(Apollo spectral Hospital) Mon - Sat 09:00 AM - 10:00 AM(Apollo Medical Centre)</p><p>Phone: 044 2467 2200</p></li>
+        &nbsp&nbsp&nbsp&nbsp<button id="button" onclick="showhide6()"style="opacity: 80%;">KNOW MORE</button>&nbsp&nbsp&nbsp<a id='first'href="https://www.practo.com/chennai/doctor/dr-priya-chandrasekar-pediatrician-1"style="font-size: 50%;padding: 1.15%;opacity: 80%;">BOOK APPOINTMENT</a>
+        
+        <br>
+        <h2> Dr Satheesh Chithapuram</h2><img src="https://png.pngitem.com/pimgs/s/493-4938154_transparent-drill-team-clipart-blue-doctor-icon-png.png" width="150" height="150"><p>M.B.B.S; DCH; DNB(PAED)<br>Pediatrician<br>36 Years of experience</p>
+        <li id='7' style="display: none;">
+        <p>Dr Satheesh Chithapuram is a renowned pediatrician in Chennai with an experience of over 32 years in this field. He comleted his M.B.B.S, DCH and DNB(PAED). He is currently practicing as consultant pediatric at Apollo Hospitals. You can consult him at Apollo Childrens Hospital all days of the week.</p>
+        <p>Address:<br>Apollo Childrens Hospital, No. 15, Shafee Mohammed Road, Thousand Lights, Chennai, Tamil Nadu 600006</p>
+        <p>FEE:Rs.500</p>
+        <p>Timings:Anytime</p><p>Phone: 044 2829 8282</p></li>
+        &nbsp&nbsp&nbsp&nbsp<button id="button" onclick="showhide7()"style="opacity: 80%;">KNOW MORE</button>&nbsp&nbsp&nbsp<a id='first'href="https://www.askapollo.com/physical-appointment/doctor/chennai/pediatrician/dr-satheesh-chithapuram"style="font-size: 50%;padding: 1.15%;opacity: 80%;">BOOK APPOINTMENT</a>
+     
+        <br>
+        <h2> Dr. Latha Viswanathan</h2><img src="https://imagesx.practo.com/providers/9ec4a7b5-7c68-4b12-848d-b2263bc26664.jpg?i_type=t_100x100"width="150" height="150"><p>MBBS, Diploma in Child Health (DCH), DNB - Paediatrics<br>Pediatrician<br>25 Years Experience Overall  (23 years as specialist)</p>
+        <li id='8' style="display: none;">
+        <p>Dr. Latha Viswanathan is a renowned Pediatrician in Chennai and has an experience of 16 years in this field. She completed MBBS from Stanley Medical College & Hospital , Chennai, DCH from Stanley Medical College & Hospital , Chennai and DNB – Pediatrics from Stanley Medical College & Hospital , Chennai. Dr. Latha Viswanathan practices at Apollo Spectra Hospital, Alwarpet in Alwarpet, Chennai, Apollo Hospital – Tondiarpet in Tondiarpet, Chennai and Apollo Hospital – Sowcarpet in Sowcarpet, Chennai. You can consult her at Apollo Spectra Hospital, Alwarpet, Monday to Saturday.</p>
+        <p>Address:<br>APOLLO HOSPITAL 21/22 Greams Lane, Thousand Lights, Off Greams Road, Landmark: Near Asan Memorial Senior Secondary School., Greams Road, Chennai<br>Apollo Childrens Hospital Number-15, Shafee Mohammed Road, Landmark: Near Apollo Heart Centre, Chennai</p>
+        <p>FEE:Rs.1000</p>
+            <p>Timings:Mon, Wed, Fri 09:00 AM - 12:00 PM Tue, Thu, Sat 09:00 AM - 11:30 AM</p><p>Phone: 044 2467 2200</p></li>
+        &nbsp&nbsp&nbsp&nbsp<button id="button" onclick="showhide8()"style="opacity: 80%;">KNOW MORE</button>&nbsp&nbsp&nbsp<a id='first'href="https://www.practo.com/chennai/doctor/dr-latha-vishwanathan"style="font-size: 50%;padding: 1.15%;opacity: 80%;">BOOK APPOINTMENT</a>
+      
+        <br>
+        <h2>Dr. G Moorthy</h2><img src="https://imagesx.practo.com/providers/61129ef9-ad8f-4050-be0d-7496ed4438c7.jpg?i_type=t_100x100"width="150" height="150"><p>MBBS, MCh - Pediatric Surgery<br>Pediatric surgeon, Pediatric Urologist and Neonatal Surgeon<br>20 Years Experience Overall  (11 years as specialist)</p>
+        <li id='9' style="display: none;">
+        <p>Dr. G. Moorthy is a popular childspecialist in chennai with more than 12 years experience as Pediatric surgeon, Pediatric Urologist and Neonatal Surgeon. He is working as Associate professor/head, department of Pediatric Surgery, Chettinad Health City, Kelambakkam and formerly associate professor at Sri Ramachandra Medical College, Porur. Dr. G. Moorthy practices at Phoenix specialty clinics Velachery, and you can consult him here all days of the week. </p>
+        <p>Address:<br>Phoenix speciality clinic, #9-B, 1st Main Road, VGP Selva Nagar, Landmark: Opposite Venkateshwara Super Market & Beside Grand Mall, Chennai.<br>Gleneagles Global Health City 439, Cheran Nagar, Sholinganallur, Medavakkam, Landmark: Near HCL, Chennai</p>
+        <p>FEE:Rs.400</p>
+            <p>Timings:Anytime</p><p>Phone: 09566191910</p></li>
+        &nbsp&nbsp&nbsp&nbsp<button id="button" onclick="showhide9()"style="opacity: 80%;">KNOW MORE</button>&nbsp&nbsp&nbsp<a id='first'href="https://www.practo.com/chennai/doctor/dr-g-moorthy-pediatrician"style="font-size: 50%;padding: 1.15%;opacity: 80%;">BOOK APPOINTMENT</a>
+    
+        <br>
+        <h2>Dr. Deepa Elizabeth Mathew</h2><img src="https://imagesx.practo.com/providers/4a7d4382-dbbd-44da-a58e-3815d66fae5a.jpg?i_type=t_100x100"width="150" height="150"><p>MBBS, Fellow of the Royal College of Pediatrics and Child Health (UK)<br>Pediatrician<br>24 Years Experience Overall  (9 years as specialist)</p>
+        <li id='10' style="display: none;">
+        <p>Dr. Deepa Elizabeth Mathew is a popular Paediatric in Chennai and has an experience of 14 years in these fields. She completed MBBS from The Tamil Nadu Dr. M.G.R. Medical University (TNMGRMU), DCH from Royal College of Physicians, London and FRCPCH from Royal College of Physicians, London. Dr. Deepa Elizabeth Mathew practices at Apollo Speciality Hospital in Vanagaram, Chennai,</p>
+        <p>Address:<br>Apollo Speciality Hospital, 64, Ambattur Main Road, Landmark : Near Schram Academy, Chennai</p>
+        <p>FEE:Rs.600</p>
+        <p>Timings:Mon - Sat 09:00 AM - 02:00 PM</p><p>Phone: 080 3080 4444</p></li>
+        &nbsp&nbsp&nbsp&nbsp<button id="button" onclick="showhide10()"style="opacity: 80%;">KNOW MORE</button>&nbsp&nbsp&nbsp<a id='first'href="https://www.practo.com/chennai/doctor/safi-naaz-general-practitioner"style="font-size: 50%;padding: 1.15%;opacity: 80%;">BOOK APPOINTMENT</a>
+    
+ <br><br></div><br><br>
+      <div id='add' style=" background-image: url(https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?size=626&ext=jpg);background-repeat: no-repeat;background-size: cover;background-color: rgba(0,0,0, 0.4);text-align: center; ">
+        <br>
+        <br>
+        <br>
+        <a href="" style="text-decoration: none;color:white; font-size: 150%;">Click Here to add a pediatrician you know as the BEST!!</a>
+        <br>
+        <br>
+        <br>
+        </div>
+    </div>
+    <br><br>
+    <div style="background-image: url('https://image.freepik.com/free-photo/shades-blue-white-background_23-2147746645.jpg');background-color: rgba(0,0,0, 0.6);background-blend-mode: darken;color: white;font-size: 100%;font-style: italic;font-family:cursive;"><br>
+        <p style="padding-left: 5%;">Contact<br>Mobile:1234567891<br>Email:abcd123@gmail.com</p>
+        <p style="padding-left: 5%; ">Follow us on<img src="https://www.beachrealtync.com/sites/default/files/uploads/socials_3.png" width=10% style="padding-left: 2%;
+        vertical-align: middle" ></p><br>
+    </div>
+    
+</body>
+</html>
