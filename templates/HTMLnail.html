@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Nail Disease Prediction</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  
+</head>
+    <style>
+         body::-webkit-scrollbar
+    {
+        display:none;
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;
+        
+    }
+        body
+        {
+            background-image: url('https://thumbs.gfycat.com/AmazingSpecificAndalusianhorse-size_restricted.gif');      
+            background-blend-mode: darken(70%);
+
+        }
+.navbar,.navbar1,.desc{
+  overflow: hidden;
+
+  font-family: sans-serif,monospace;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: rgb(30,144,255);
+  text-align: center;
+   padding: 14px 16px;
+  text-decoration: none;
+}
+img
+    {
+        padding-left: 4%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+.cropped1
+    {
+           padding-left: 2%;
+        vertical-align: middle;
+        font-size: 150%;
+    }
+.navbar{
+    background-image: url('https://image.freepik.com/free-photo/shades-blue-white-background_23-2147746645.jpg');
+    background-color: rgba(0,0,0, 0.3);
+    background-blend-mode: darken;
+    color: white;
+    font-size: 100%;
+    font-style: italic;
+    font-family:cursive;
+        padding-left: 2%;
+ 
+    }
+div.scrollmenu {
+    padding-top: 1%;
+    
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: rgb(30,144,255);
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+    font-family: cursive,monospace;
+}
+
+div.scrollmenu a:hover {
+  background-color: rgb(135,206,235);
+}
+.scrollmenu {
+  background-color: #eee;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll; /* Add the ability to scroll */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrollmenu::-webkit-scrollbar {
+    width: 2%;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrollmenu {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: 2%;  /* Firefox */
+}
+        .mySlides{
+            display: none;
+        }
+    </style>
+<script>
+function add()
+{
+  var numOne, numTwo, numThree,sum;
+  numOne = parseInt(document.getElementById("first").value);
+  numTwo = parseInt(document.getElementById("second").value);
+  numThree= parseInt(document.getElementById("third").value);
+  sum = ((numOne + numTwo +numThree)/3)*10; 
+  l=sum;
+       document.getElementById("answer").value = sum;
+if(l>=0 && l<=20){
+        document.getElementById("text").innerHTML ="Consult a Doctor for Medication. Checkup is recommended.";}
+  else if(l>=21 && l<=40){
+        document.getElementById("text").innerHTML ="medication is compulsory.Must  Go for checkup at periodical time.";}
+  else if(l>=41 && l<=60){
+        document.getElementById("text").innerHTML="Consultation and Medication must be taken. consult doctor weekly twice and follow the mediation.";}
+  else if(l>=61 && l<=80){
+        document.getElementById("text").innerHTML ="Medication or surgery (if should) must be taken. test and consultation is compulsory.";}
+  else{
+        document.getElementById("text").innerHTML ="Immediate Consultation and sugery(If must) must be done. follow medication before or after surgery if done.";}  
+}
+var slideIndex = 0;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+    
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}  
+</script>
+<body >
+<div class='navbar' id='title'>
+
+    <p style="font-size: 140%"><img class="cropped1" src="https://drive.google.com/thumbnail?id=1JQ6epr36ugrVF7cuTlYMw9kL7J-pZrfd" width=5%; height="5%;">&nbsp HEALTH COMPANION</p></div>
+    <div class="scrollmenu">
+             <a href="https://kruphacm.github.io/health-improviser-and-monitoring-system/" >HOME</a>
+            <a href='https://kruphacm.github.io/health-improviser-and-monitoring-system/Consulting%20doctors.html' >CONSULTING</a>
+             <a href='https://aiforecasting.herokuapp.com/' >CHECK MY HEALTH</a>
+             <a href="https://kruphacm.github.io/health-improviser-and-monitoring-system/AI%20predictions.html" >AI PREDICTIONS</a>
+             <a href="https://kruphacm.github.io/health-improviser-and-monitoring-system/Hospital.html">HOSPITAL CONSULTING</a>      
+                 <a href="https://kruphacm.github.io/health-improviser-and-monitoring-system/HealthyTips.html">HEALTH TIPS</a>
+                 <a href="https://kruphacm.github.io/health-improviser-and-monitoring-system/food1-1.html">FOOD INFO</a>
+                  <a href="https://kruphacm.github.io/health-improviser-and-monitoring-system/Disease%20information.html">DISEASE INFO</a>
+             </div>
+  <br>
+  <br>
+  <br>
+    <div style="color: white; ">
+        <div class="navbar1" style='align-self:  center; color: white; font-display:auto; padding: 5%; font-size: 150%; background-image:url(https://images.pexels.com/photos/5412/water-blue-ocean.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500);font-family: cursive;background-repeat: no-repeat;background-size: cover;background-color: rgba(0,0,0, 0.4);
+    background-blend-mode: darken;'>
+    <div class="split left" style="float:left;width: 45%;">
+   <div class="w3-content w3-section" >
+       <p style="text-align: center;">CLICK RIGHT ARROW TO KNOW MORE</p>
+       <!-- Navigation arrows -->  
+        <a class="left" onclick="plusDivs(-1)" style="float:left;padding-top: -15;">❮</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        <a class="right" onclick="plusDivs(1)" style="float:right;">❯</a> 
+       <div class='id1'><img class="mySlides" src="https://creakyjoints.org/wp-content/uploads/2019/02/0219_Psoriatic-Arthritis-Nail-Changes-1024x683.jpg" width="500px" height="300px"style="align-content: center;"></div>
+       <div class='id2'><img class="mySlides"  src="https://medlineplus.gov/ency/images/ency/fullsize/9136.jpg"width="500px" height="300px"></div>
+      <div class='id3'> <img class="mySlides"  src="https://images-na.ssl-images-amazon.com/images/I/41AAaU8O-QL.jpg" width="500px" height="300px"></div> 
+       <div class='id4'><img class="mySlides" src="https://as2.ftcdn.net/jpg/02/48/54/19/500_F_248541902_UJQhGV4Xdo7fkJz07gZpL2A1P0hIazxv.jpg" width="500px" height="300px"style="align-content: center;"></div>
+       <div class='id5'><img class="mySlides" src="https://www.aafp.org/afp/2019/0801/afp20190801p158-s1-uf1.jpg" width="500px" height="300px"style="align-content: center;"></div>
+       <div class='id6'><img class="mySlides" src="https://image.shutterstock.com/image-vector/nail-diseases-onychogryphosis-rams-horn-260nw-1792151693.jpg" width="500px" height="300px"style="align-content: center;"></div>
+       <div class='id7'><img class="mySlides" src="https://i.dlpng.com/static/png/7306170_preview.png" width="500px" height="300px"style="align-content: center;"></div>
+       <div class='id8'><img class="mySlides" src="https://st3.depositphotos.com/7711942/15915/v/380/depositphotos_159153042-stock-illustration-no-fungal-nail-disease.jpg" width="500px" height="300px"style="align-content: center;"></div>
+
+   
+</div>
+            </div>
+<div class="split right" style="float:right;width: 50%;">
+     <br>
+    <p style="padding-left: 2%; ">NAIL DISEASE PREDICTION:</p>
+        <p style="padding-left: 2%; ">This prediction focusses on predicting diseases like Nail psoriasis,Brittle Splitting Nails,Nail Fungal Infection,Onycholysis,Ingrown Toenail,Onychogryphosis and Paronychia.Here Given a list of symptoms which help the machine to prediction the disease and its Treatment. Give the appropriate Disease Number in the  Symptom column and predicct the disease.</p><br><br><br><br>
+</div>
+        </div> </div>  
+<br><br>
+    
+ <div class="login" style="background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTXsrgfTXdY1Toaba_F5Q7sFy6-1qhaFVpgf04KQJx8EXUOHfWdDhsnFXTfBpeOrYQ854&usqp=CAU);font-family: cursive;background-repeat: no-repeat;background-size: cover;background-color: rgba(0,0,0, 0.4);
+    background-blend-mode: darken;font-family: cursive;"><br><br>
+	<h1 style="color: white; text-align: center;">Nail Disease Prediction</h1>
+     
+
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('predict')}}"method="post" style='color: white;  text-align:center; font-size: 150%;'>
+        <label for="cars">Enter The Symptom One:</label>
+        <select name="cars" id="cars">
+  <option value="Crumbling Nail">Crumbling Nail</option>
+  <option value="Pitting">Pitting</option>
+  <option value="Change in color,Blood under the nails">Change in color,Blood under the nails</option>
+  <option value="The nail separates from the bed">The nail separates from the bed</option>
+  <option value="Nail breaks easily">Nail breaks easily</option>
+  <option value="Affects both finger nail and toe nail">Affects both finger nail and toe nail</option>
+  <option value="Drying the nails">Drying the nails</option>
+  <option value="Typically affects only finger nail">Typically affects only finger nail</option>
+  <option value="Redness,soreness">Redness,soreness</option>
+  <option value="Pus">Pus</option>
+  <option value="Genetics,Injury">Genetics,Injury</option>
+  <option value="Thick Nail">Thick Nail</option>
+  <option value="Discolored nail that are brown,yellow,white">Discolored nail that are brown,yellow,white</option>
+  <option value="Fragile and cracked nail">Fragile and cracked nail</option>
+  <option value="Discoloration of nail yellow,green or opaque">Discoloration of nail yellow,green or opaque</option>
+  <option value="Nail pitting,Nail thickening">Nail pitting,Nail thickening</option>
+  <option value="Bending of nail edges">Bending of nail edges</option>
+  <option value="Swelling,Tenderness">Swelling,Tenderness</option>
+  <option value="Circulation issues">Circulation issues</option>
+  <option value="Ichthyosis">Ichthyosis</option>
+  <option value="Swelling">Swelling</option>
+  <option value="Pain,redness">Pain,redness</option>
+  <option value="Fever and gland pain">Fever and gland pain</option>
+  <option value="Yellow pus">Yellow pus</option>
+        </select><br><br><br>
+  <label for="cars">Enter The Symptom Two:</label>
+        <select name="cars1" id="cars1">
+  <option value="Crumbling Nail">Crumbling Nail</option>
+  <option value="Pitting">Pitting</option>
+  <option value="Change in color,Blood under the nails">Change in color,Blood under the nails</option>
+  <option value="The nail separates from the bed">The nail separates from the bed</option>
+  <option value="Nail breaks easily">Nail breaks easily</option>
+  <option value="Affects both finger nail and toe nail">Affects both finger nail and toe nail</option>
+  <option value="Drying the nails">Drying the nails</option>
+  <option value="Typically affects only finger nail">Typically affects only finger nail</option>
+  <option value="Redness,soreness">Redness,soreness</option>
+  <option value="Pus">Pus</option>
+  <option value="Genetics,Injury">Genetics,Injury</option>
+  <option value="Thick Nail">Thick Nail</option>
+  <option value="Discolored nail that are brown,yellow,white">Discolored nail that are brown,yellow,white</option>
+  <option value="Fragile and cracked nail">Fragile and cracked nail</option>
+  <option value="Discoloration of nail yellow,green or opaque">Discoloration of nail yellow,green or opaque</option>
+  <option value="Nail pitting,Nail thickening">Nail pitting,Nail thickening</option>
+  <option value="Bending of nail edges">Bending of nail edges</option>
+  <option value="Swelling,Tenderness">Swelling,Tenderness</option>
+  <option value="Circulation issues">Circulation issues</option>
+  <option value="Ichthyosis">Ichthyosis</option>
+  <option value="Swelling">Swelling</option>
+  <option value="Pain,redness">Pain,redness</option>
+  <option value="Fever and gland pain">Fever and gland pain</option>
+  <option value="Yellow pus">Yellow pus</option>
+        </select><br><br><br>
+<label for="cars">Enter The Symptom Three:</label>
+        <select name="cars2" id="cars2">
+  <option value="Crumbling Nail">Crumbling Nail</option>
+  <option value="Pitting">Pitting</option>
+  <option value="Change in color,Blood under the nails">Change in color,Blood under the nails</option>
+  <option value="The nail separates from the bed">The nail separates from the bed</option>
+  <option value="Nail breaks easily">Nail breaks easily</option>
+  <option value="Affects both finger nail and toe nail">Affects both finger nail and toe nail</option>
+  <option value="Drying the nails">Drying the nails</option>
+  <option value="Typically affects only finger nail">Typically affects only finger nail</option>
+  <option value="Redness,soreness">Redness,soreness</option>
+  <option value="Pus">Pus</option>
+  <option value="Genetics,Injury">Genetics,Injury</option>
+  <option value="Thick Nail">Thick Nail</option>
+  <option value="Discolored nail that are brown,yellow,white">Discolored nail that are brown,yellow,white</option>
+  <option value="Fragile and cracked nail">Fragile and cracked nail</option>
+  <option value="Discoloration of nail yellow,green or opaque">Discoloration of nail yellow,green or opaque</option>
+  <option value="Nail pitting,Nail thickening">Nail pitting,Nail thickening</option>
+  <option value="Bending of nail edges">Bending of nail edges</option>
+  <option value="Swelling,Tenderness">Swelling,Tenderness</option>
+  <option value="Circulation issues">Circulation issues</option>
+  <option value="Ichthyosis">Ichthyosis</option>
+  <option value="Swelling">Swelling</option>
+  <option value="Pain,redness">Pain,redness</option>
+  <option value="Fever and gland pain">Fever and gland pain</option>
+  <option value="Yellow pus">Yellow pus</option>
+        </select><br><br><br>
+        <button type="submit" class="btn btn-primary btn-block btn-large" style='background-color:lightsalmon; color: white; font-size: 100%; padding: 1%;'>&nbsp&nbsp &nbsp Predict&nbsp&nbsp &nbsp  </button><br><br>
+    </form>
+    </div>
+   <br><br>
+   <br><br>
+   <br><br>
+     <div style='color: white;background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTXsrgfTXdY1Toaba_F5Q7sFy6-1qhaFVpgf04KQJx8EXUOHfWdDhsnFXTfBpeOrYQ854&usqp=CAU);font-family: cursive;background-repeat: no-repeat;background-size: cover;background-color: rgba(0,0,0, 0.4);
+    background-blend-mode: darken;text-align: center; font-size: 150%;'>
+         <br><br>
+     {{ prediction_text }}
+         <br>
+         <br>
+     </div><br><br>
+    <div style="color: white;background-image:url(https://images.unsplash.com/photo-1601436155198-2ebfea8117b0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80);font-family: cursive;background-repeat: no-repeat;background-size: cover;background-color: rgba(0,0,0, 0.4);
+    background-blend-mode: darken;text-align:center; font-size: 150%;"><br><br>
+        <h4>CHECK THE RISK LEVEL OF DISEASE</h4><br>
+        <p>Enter the range within 1-10</p><br>
+        <p>Enter the effect of Symptom 1:<input id="first"></p>
+        <p>Enter the effect of Symptom 2:<input id="second"></p>
+        <p>Enter the effect of Symptom 3:<input id="third"></p>
+        <button onclick="add()"  style='background-color:lightsalmon; color: white; font-size: 100%; padding: 2%;'>Show Risk level</button>
+        <p>RISK LEVEL at <input id="answer"> %</p><br><p id='text'></p>
+        <br>
+        <br>
+        <br>
+    </div>
+    <br><br>
+    <div style="background-image: url('https://image.freepik.com/free-photo/shades-blue-white-background_23-2147746645.jpg');background-color: rgba(0,0,0, 0.6);background-blend-mode: darken;color: white;font-size: 100%;font-style: italic;font-family:cursive;"><br>
+        <p style="padding-left: 5%;">Contact<br>Mobile:1234567891<br>Email:abcd123@gmail.com</p>
+        <p style="padding-left: 5%; ">Follow us on<img src="https://www.beachrealtync.com/sites/default/files/uploads/socials_3.png" width=10% style="padding-left: 2%;
+        vertical-align: middle" ></p><br>
+    </div>
+</body>
+</html>
